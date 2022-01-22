@@ -1,4 +1,4 @@
-# M-and-Ms
+# BS19-S22. M-and-Ms
 
 ## HW 1
 * [Folders](https://github.com/br4ch1st0chr0n3/M-and-Ms/tree/main/HW1)
