@@ -10,5 +10,4 @@
 
 ## HW 3
 * [Folders](./HW3)
-* See pics in [Inventor/Renders](./HW3/Inventor/Renders) folders
-* See BOM in [BOM](./HW3/Inventor/BOM) folder
+* See BOM in [BOM](./HW3/Inventor/BOM) folder or [here](https://docs.google.com/spreadsheets/d/1fU5a32PmGlRP2ZPKVouCsaNfi5b3JEX0dQUcG1EBDpM/edit?usp=sharing)
