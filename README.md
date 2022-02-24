@@ -1,5 +1,8 @@
 # BS19-S22. M-and-Ms
 
+## Final project
+* [Kinematic analysis](https://www.mathcha.io/editor/My3LjTnktejfjvT2ve1y1FoMBLviWpzp7Wt8LlrL)
+
 ## HW 1
 * [Folders](./HW1)
 * See `.mp4` animations for task 2 in its folders
@@ -11,3 +14,4 @@
 ## HW 3
 * [Folders](./HW3)
 * See BOM in [BOM](./HW3/Inventor/BOM) folder or [here](https://docs.google.com/spreadsheets/d/1fU5a32PmGlRP2ZPKVouCsaNfi5b3JEX0dQUcG1EBDpM/edit?usp=sharing)
+
