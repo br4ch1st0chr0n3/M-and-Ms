@@ -1,0 +1,4696 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    De-activating Load 10N ( Load Step 1 )
+    De-activating Load 10N ( Load Step 1 )
+    De-activating Load 10N ( Load Step 1 )
+    De-activating Load 10N ( Load Step 2 )
+    De-activating Load 10N ( Load Step 2 )
+    De-activating Load 10N ( Load Step 2 )
+    De-activating Load 10N ( Load Step 3 )
+    De-activating Load 10N ( Load Step 3 )
+    De-activating Load 10N ( Load Step 3 )
+    De-activating Load 10N ( Load Step 4 )
+    De-activating Load 10N ( Load Step 4 )
+    De-activating Load 10N ( Load Step 4 )
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    No Redundancies detected in the model
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 10
+    Total Number of Joints: 15 (9 based on degrees of freedom, 6 based on constraint equations)
+        4 Joints of Type General
+        5 Joints of Type Revolute
+        2 Joints of Type Translational
+        4 Joints of Type Weld
+
+    Number of Physical Degrees of Freedom: 25
+
+    _________________________________________________________________________
+
+
+    Time:      0 s - Status of loads and joint conditions
+     - Load "10N ( Load Step 0 )" is active
+     - Load "10N ( Load Step 0 )" is active
+     - Load "10N ( Load Step 0 )" is active
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "Friction Force" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Force" is active
+ 
+
+    End of Transient Initialization
+    Current Time:      0 s Current time step 0.001 s
+
+    Time:      0 s Solving Shock 1
+
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Time:      0 s Processing Event "SlipToStickEvent"
+    Current Time:  0.009 s Current time step 0.001 s
+    Current Time:  0.019 s Current time step 0.001 s
+    Current Time:  0.029 s Current time step 0.001 s
+
+    Time: 0.03748 s Solving Shock 2
+
+    Time: 0.03748 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03748 s Solving Shock 3
+
+    Time: 0.03748 s Processing Event "SlipToStickEvent"
+    Time: 0.03748 s Processing Event "SlipToStickEvent"
+    Current Time: 0.03748 s Current time step 0.001 s
+
+    Time: 0.03848 s Solving Shock 4
+
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03848 s Solving Shock 5
+
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03848 s Solving Shock 6
+
+    Time: 0.03848 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03924 s Solving Shock 7
+
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03924 s Solving Shock 8
+
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+    Time: 0.03924 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03987 s Solving Shock 9
+
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+
+    Time: 0.03987 s Solving Shock 10
+
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+    Time: 0.03987 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04087 s Solving Shock 11
+
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04087 s Solving Shock 12
+
+    Time: 0.04087 s Processing Event "SlipToStickEvent"
+    Current Time: 0.04087 s Current time step 0.001 s
+
+    Time: 0.04134 s Solving Shock 13
+
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04134 s Solving Shock 14
+
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+    Time: 0.04134 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04234 s Solving Shock 15
+
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+    Time: 0.04234 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04798 s Solving Shock 16
+
+    Time: 0.04798 s Processing Event "SlipToStickEvent"
+    Current Time: 0.04798 s Current time step 0.001 s
+
+    Time: 0.04798 s Solving Shock 17
+
+    Time: 0.04798 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04798 s Solving Shock 18
+
+    Time: 0.04798 s Processing Event "SlipToStickEvent"
+
+    Time: 0.04798 s Solving Shock 19
+
+    Time: 0.04798 s Processing Event "SlipToStickEvent"
+    Current Time: 0.05498 s Current time step 0.001 s
+    Current Time: 0.06498 s Current time step 0.001 s
+    Current Time: 0.07498 s Current time step 0.001 s
+    Current Time: 0.08498 s Current time step 0.001 s
+    Current Time: 0.09498 s Current time step 0.001 s
+
+    Time: 0.0979 s Solving Shock 20
+
+    Time: 0.0979 s Processing Event "SlipToStickEvent"
+
+    Time: 0.0989 s Solving Shock 21
+
+    Time: 0.0989 s Processing Event "SlipToStickEvent"
+
+    Time: 0.0999 s Solving Shock 22
+
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+
+    Time: 0.0999 s Solving Shock 23
+
+    Time: 0.0999 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1009 s Solving Shock 24
+
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+    Current Time: 0.1009 s Current time step 0.001 s
+
+    Time: 0.1009 s Solving Shock 25
+
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+    Time: 0.1009 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1019 s Solving Shock 26
+
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1019 s Solving Shock 27
+
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+    Time: 0.1019 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1029 s Solving Shock 28
+
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1029 s Solving Shock 29
+
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+    Time: 0.1029 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1039 s Solving Shock 30
+
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Time: 0.1039 s Processing Event "SlipToStickEvent"
+    Current Time: 0.1049 s Current time step 0.001 s
+    Current Time: 0.1149 s Current time step 0.001 s
+    Current Time: 0.1249 s Current time step 0.001 s
+    Current Time: 0.1349 s Current time step 0.001 s
+    Current Time: 0.1449 s Current time step 0.001 s
+    Current Time: 0.1549 s Current time step 0.001 s
+
+    Time: 0.1599 s Solving Shock 31
+
+    Time: 0.1599 s Processing Event "SlipToStickEvent"
+
+    Time: 0.1609 s Solving Shock 32
+
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Time: 0.1609 s Processing Event "SlipToStickEvent"
+    Current Time: 0.1629 s Current time step 0.001 s
+    Current Time: 0.1729 s Current time step 0.001 s
+    Current Time: 0.1829 s Current time step 0.001 s
+    Current Time: 0.1929 s Current time step 0.001 s
+    Current Time: 0.2029 s Current time step 0.001 s
+    Current Time: 0.2129 s Current time step 0.001 s
+
+    Time: 0.2164 s Solving Shock 33
+
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+    Time: 0.2164 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2174 s Solving Shock 34
+
+    Time: 0.2174 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2184 s Solving Shock 35
+
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2184 s Solving Shock 36
+
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2184 s Solving Shock 37
+
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Current Time: 0.2184 s Current time step 0.001 s
+
+    Time: 0.2184 s Solving Shock 38
+
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+    Time: 0.2184 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2194 s Solving Shock 39
+
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2194 s Solving Shock 40
+
+    Time: 0.2194 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2204 s Solving Shock 41
+
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Time: 0.2204 s Processing Event "SlipToStickEvent"
+    Current Time: 0.2244 s Current time step 0.001 s
+    Current Time: 0.2344 s Current time step 0.001 s
+    Current Time: 0.2444 s Current time step 0.001 s
+    Current Time: 0.2544 s Current time step 0.001 s
+    Current Time: 0.2644 s Current time step 0.001 s
+    Current Time: 0.2744 s Current time step 0.001 s
+
+    Time: 0.2764 s Solving Shock 42
+
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2764 s Solving Shock 43
+
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2764 s Solving Shock 44
+
+    Time: 0.2764 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2768 s Solving Shock 45
+
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2768 s Solving Shock 46
+
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+    Time: 0.2768 s Processing Event "SlipToStickEvent"
+
+    Time: 0.2778 s Solving Shock 47
+
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Time: 0.2778 s Processing Event "SlipToStickEvent"
+    Current Time: 0.2798 s Current time step 0.001 s
+    Current Time: 0.2898 s Current time step 0.001 s
+    Current Time: 0.2998 s Current time step 0.001 s
+    Current Time: 0.3098 s Current time step 0.001 s
+    Current Time: 0.3198 s Current time step 0.001 s
+    Current Time: 0.3298 s Current time step 0.001 s
+
+    Time: 0.3333 s Solving Shock 48
+
+    Time: 0.3333 s Processing Event "SlipToStickEvent"
+    Time: 0.3333 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3343 s Solving Shock 49
+
+    Time: 0.3343 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3353 s Solving Shock 50
+
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Time: 0.3353 s Processing Event "SlipToStickEvent"
+    Current Time: 0.3373 s Current time step 0.001 s
+    Current Time: 0.3473 s Current time step 0.001 s
+    Current Time: 0.3573 s Current time step 0.001 s
+    Current Time: 0.3673 s Current time step 0.001 s
+    Current Time: 0.3773 s Current time step 0.001 s
+    Current Time: 0.3873 s Current time step 0.001 s
+
+    Time: 0.3912 s Solving Shock 51
+
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3912 s Solving Shock 52
+
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3912 s Solving Shock 53
+
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3912 s Solving Shock 54
+
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3912 s Solving Shock 55
+
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+    Time: 0.3912 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3922 s Solving Shock 56
+
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+    Current Time: 0.3922 s Current time step 0.001 s
+
+    Time: 0.3922 s Solving Shock 57
+
+    Time: 0.3922 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3932 s Solving Shock 58
+
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3932 s Solving Shock 59
+
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+    Time: 0.3932 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3941 s Solving Shock 60
+
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3941 s Solving Shock 61
+
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+    Time: 0.3941 s Processing Event "SlipToStickEvent"
+
+    Time: 0.3951 s Solving Shock 62
+
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Time: 0.3951 s Processing Event "SlipToStickEvent"
+    Current Time: 0.3971 s Current time step 0.001 s
+    Current Time: 0.4071 s Current time step 0.001 s
+    Current Time: 0.4171 s Current time step 0.001 s
+    Current Time: 0.4271 s Current time step 0.001 s
+    Current Time: 0.4371 s Current time step 0.001 s
+    Current Time: 0.4471 s Current time step 0.001 s
+
+    Time: 0.4505 s Solving Shock 63
+
+    Time: 0.4505 s Processing Event "SlipToStickEvent"
+    Time: 0.4505 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4515 s Solving Shock 64
+
+    Time: 0.4515 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4524 s Solving Shock 65
+
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4524 s Solving Shock 66
+
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+    Time: 0.4524 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4532 s Solving Shock 67
+
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4532 s Solving Shock 68
+
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+    Time: 0.4532 s Processing Event "SlipToStickEvent"
+    Current Time: 0.4532 s Current time step 0.001 s
+
+    Time: 0.4542 s Solving Shock 69
+
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4542 s Solving Shock 70
+
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+    Time: 0.4542 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4549 s Solving Shock 71
+
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4549 s Solving Shock 72
+
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+    Time: 0.4549 s Processing Event "SlipToStickEvent"
+
+    Time: 0.4559 s Solving Shock 73
+
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Time: 0.4559 s Processing Event "SlipToStickEvent"
+    Current Time: 0.4589 s Current time step 0.001 s
+    Current Time: 0.4689 s Current time step 0.001 s
+    Current Time: 0.4789 s Current time step 0.001 s
+    Current Time: 0.4889 s Current time step 0.001 s
+    Current Time: 0.4989 s Current time step 0.001 s
+    Current Time: 0.5089 s Current time step 0.001 s
+
+    Time: 0.5118 s Solving Shock 74
+
+    Time: 0.5118 s Processing Event "SlipToStickEvent"
+    Time: 0.5118 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5118 s Solving Shock 75
+
+    Time: 0.5118 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5118 s Solving Shock 76
+
+    Time: 0.5118 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5127 s Solving Shock 77
+
+    Time: 0.5127 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5127 s Solving Shock 78
+
+    Time: 0.5127 s Processing Event "SlipToStickEvent"
+    Time: 0.5127 s Processing Event "SlipToStickEvent"
+    Time: 0.5127 s Processing Event "SlipToStickEvent"
+    Time: 0.5127 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5134 s Solving Shock 79
+
+    Time: 0.5134 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5134 s Solving Shock 80
+
+    Time: 0.5134 s Processing Event "SlipToStickEvent"
+    Time: 0.5134 s Processing Event "SlipToStickEvent"
+    Time: 0.5134 s Processing Event "SlipToStickEvent"
+    Time: 0.5134 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5144 s Current time step 0.001 s
+
+    Time: 0.5144 s Solving Shock 81
+
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Time: 0.5144 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5234 s Current time step 0.001 s
+    Current Time: 0.5334 s Current time step 0.001 s
+    Current Time: 0.5434 s Current time step 0.001 s
+    Current Time: 0.5534 s Current time step 0.001 s
+    Current Time: 0.5634 s Current time step 0.001 s
+
+    Time: 0.5698 s Solving Shock 82
+
+    Time: 0.5698 s Processing Event "SlipToStickEvent"
+    Time: 0.5698 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5708 s Solving Shock 83
+
+    Time: 0.5708 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5718 s Current time step 0.001 s
+
+    Time: 0.5718 s Solving Shock 84
+
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5718 s Solving Shock 85
+
+    Time: 0.5718 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5723 s Solving Shock 86
+
+    Time: 0.5723 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5723 s Solving Shock 87
+
+    Time: 0.5723 s Processing Event "SlipToStickEvent"
+    Time: 0.5723 s Processing Event "SlipToStickEvent"
+    Time: 0.5723 s Processing Event "SlipToStickEvent"
+    Time: 0.5723 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 88
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 89
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 90
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 91
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 92
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 93
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5724 s Current time step 0.001 s
+
+    Time: 0.5724 s Solving Shock 94
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 95
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 96
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 97
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 98
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 99
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 100
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 101
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 102
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 103
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5724 s Current time step 0.001 s
+
+    Time: 0.5724 s Solving Shock 104
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 105
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 106
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 107
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 108
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 109
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 110
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5724 s Solving Shock 111
+
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+    Time: 0.5724 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5732 s Solving Shock 112
+
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+
+    Time: 0.5732 s Solving Shock 113
+
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+    Time: 0.5732 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5732 s Current time step 0.001 s
+
+    Time: 0.5742 s Solving Shock 114
+
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Time: 0.5742 s Processing Event "SlipToStickEvent"
+    Current Time: 0.5822 s Current time step 0.001 s
+    Current Time: 0.5922 s Current time step 0.001 s
+    Current Time: 0.6022 s Current time step 0.001 s
+    Current Time: 0.6122 s Current time step 0.001 s
+    Current Time: 0.6222 s Current time step 0.001 s
+
+    Time: 0.6301 s Solving Shock 115
+
+    Time: 0.6301 s Processing Event "SlipToStickEvent"
+    Time: 0.6301 s Processing Event "SlipToStickEvent"
+
+    Time: 0.6301 s Solving Shock 116
+
+    Time: 0.6301 s Processing Event "SlipToStickEvent"
+
+    Time: 0.6301 s Solving Shock 117
+
+    Time: 0.6301 s Processing Event "SlipToStickEvent"
+    Time: 0.6301 s Processing Event "SlipToStickEvent"
+    Current Time: 0.6301 s Current time step 0.001 s
+
+    Time: 0.6311 s Solving Shock 118
+
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Time: 0.6311 s Processing Event "SlipToStickEvent"
+    Current Time: 0.6391 s Current time step 0.001 s
+    Current Time: 0.6491 s Current time step 0.001 s
+    Current Time: 0.6591 s Current time step 0.001 s
+    Current Time: 0.6691 s Current time step 0.001 s
+    Current Time: 0.6791 s Current time step 0.001 s
+
+    Time: 0.6864 s Solving Shock 119
+
+    Time: 0.6864 s Processing Event "SlipToStickEvent"
+    Time: 0.6864 s Processing Event "SlipToStickEvent"
+    Current Time: 0.6884 s Current time step 0.001 s
+
+    Time: 0.6884 s Solving Shock 120
+
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+
+    Time: 0.6884 s Solving Shock 121
+
+    Time: 0.6884 s Processing Event "SlipToStickEvent"
+
+    Time:  0.689 s Solving Shock 122
+
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+
+    Time:  0.689 s Solving Shock 123
+
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+    Time:  0.689 s Processing Event "SlipToStickEvent"
+
+    Time:   0.69 s Solving Shock 124
+
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+
+    Time:   0.69 s Solving Shock 125
+
+    Time:   0.69 s Processing Event "SlipToStickEvent"
+
+    Time:  0.691 s Solving Shock 126
+
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Time:  0.691 s Processing Event "SlipToStickEvent"
+    Current Time:  0.692 s Current time step 0.001 s
+    Current Time:  0.702 s Current time step 0.001 s
+    Current Time:  0.712 s Current time step 0.001 s
+    Current Time:  0.722 s Current time step 0.001 s
+    Current Time:  0.732 s Current time step 0.001 s
+    Current Time:  0.742 s Current time step 0.001 s
+
+    Time: 0.7469 s Solving Shock 127
+
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+
+    Time: 0.7469 s Solving Shock 128
+
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+
+    Time: 0.7469 s Solving Shock 129
+
+    Time: 0.7469 s Processing Event "SlipToStickEvent"
+
+    Time: 0.7479 s Solving Shock 130
+
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Time: 0.7479 s Processing Event "SlipToStickEvent"
+    Current Time: 0.7489 s Current time step 0.001 s
+    Current Time: 0.7589 s Current time step 0.001 s
+    Current Time: 0.7689 s Current time step 0.001 s
+    Current Time: 0.7789 s Current time step 0.001 s
+    Current Time: 0.7889 s Current time step 0.001 s
+    Current Time: 0.7989 s Current time step 0.001 s
+
+    Time: 0.8031 s Solving Shock 131
+
+    Time: 0.8031 s Processing Event "SlipToStickEvent"
+    Time: 0.8031 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8041 s Solving Shock 132
+
+    Time: 0.8041 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8055 s Solving Shock 133
+
+    Time: 0.8055 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8065 s Current time step 0.001 s
+
+    Time: 0.8065 s Solving Shock 134
+
+    Time: 0.8065 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8072 s Solving Shock 135
+
+    Time: 0.8072 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8088 s Solving Shock 136
+
+    Time: 0.8088 s Processing Event "SlipToStickEvent"
+
+    Time:  0.809 s Solving Shock 137
+
+    Time:  0.809 s Processing Event "SlipToStickEvent"
+
+    Time:   0.81 s Solving Shock 138
+
+    Time:   0.81 s Processing Event "SlipToStickEvent"
+
+    Time:  0.811 s Solving Shock 139
+
+    Time:  0.811 s Processing Event "SlipToStickEvent"
+
+    Time:  0.811 s Solving Shock 140
+
+    Time:  0.811 s Processing Event "SlipToStickEvent"
+    Current Time:  0.811 s Current time step 0.001 s
+
+    Time:  0.812 s Solving Shock 141
+
+    Time:  0.812 s Processing Event "SlipToStickEvent"
+
+    Time:  0.813 s Solving Shock 142
+
+    Time:  0.813 s Processing Event "SlipToStickEvent"
+
+    Time:  0.814 s Solving Shock 143
+
+    Time:  0.814 s Processing Event "SlipToStickEvent"
+    Time:  0.814 s Processing Event "SlipToStickEvent"
+
+    Time:  0.815 s Solving Shock 144
+
+    Time:  0.815 s Processing Event "SlipToStickEvent"
+
+    Time:  0.815 s Solving Shock 145
+
+    Time:  0.815 s Processing Event "SlipToStickEvent"
+
+    Time:  0.815 s Solving Shock 146
+
+    Time:  0.815 s Processing Event "SlipToStickEvent"
+    Current Time:  0.815 s Current time step 0.001 s
+
+    Time: 0.8151 s Solving Shock 147
+
+    Time: 0.8151 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8161 s Solving Shock 148
+
+    Time: 0.8161 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8161 s Solving Shock 149
+
+    Time: 0.8161 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8166 s Solving Shock 150
+
+    Time: 0.8166 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8176 s Solving Shock 151
+
+    Time: 0.8176 s Processing Event "SlipToStickEvent"
+    Time: 0.8176 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8186 s Solving Shock 152
+
+    Time: 0.8186 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8186 s Solving Shock 153
+
+    Time: 0.8186 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8186 s Current time step 0.001 s
+
+    Time: 0.8196 s Solving Shock 154
+
+    Time: 0.8196 s Processing Event "SlipToStickEvent"
+
+    Time:   0.82 s Solving Shock 155
+
+    Time:   0.82 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8206 s Solving Shock 156
+
+    Time: 0.8206 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8206 s Solving Shock 157
+
+    Time: 0.8206 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8225 s Solving Shock 158
+
+    Time: 0.8225 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8234 s Solving Shock 159
+
+    Time: 0.8234 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8244 s Solving Shock 160
+
+    Time: 0.8244 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8244 s Current time step 0.001 s
+
+    Time: 0.8248 s Solving Shock 161
+
+    Time: 0.8248 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8252 s Solving Shock 162
+
+    Time: 0.8252 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8252 s Solving Shock 163
+
+    Time: 0.8252 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8262 s Solving Shock 164
+
+    Time: 0.8262 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8262 s Solving Shock 165
+
+    Time: 0.8262 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8272 s Solving Shock 166
+
+    Time: 0.8272 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8282 s Solving Shock 167
+
+    Time: 0.8282 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8282 s Current time step 0.001 s
+
+    Time: 0.8302 s Solving Shock 168
+
+    Time: 0.8302 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8321 s Solving Shock 169
+
+    Time: 0.8321 s Processing Event "SlipToStickEvent"
+
+    Time:  0.833 s Solving Shock 170
+
+    Time:  0.833 s Processing Event "SlipToStickEvent"
+
+    Time:  0.834 s Solving Shock 171
+
+    Time:  0.834 s Processing Event "SlipToStickEvent"
+
+    Time:  0.834 s Solving Shock 172
+
+    Time:  0.834 s Processing Event "SlipToStickEvent"
+    Current Time:  0.835 s Current time step 0.001 s
+
+    Time:  0.836 s Solving Shock 173
+
+    Time:  0.836 s Processing Event "SlipToStickEvent"
+
+    Time:  0.838 s Solving Shock 174
+
+    Time:  0.838 s Processing Event "SlipToStickEvent"
+
+    Time:  0.839 s Solving Shock 175
+
+    Time:  0.839 s Processing Event "SlipToStickEvent"
+
+    Time:  0.839 s Solving Shock 176
+
+    Time:  0.839 s Processing Event "SlipToStickEvent"
+
+    Time:   0.84 s Solving Shock 177
+
+    Time:   0.84 s Processing Event "SlipToStickEvent"
+    Current Time:   0.84 s Current time step 0.001 s
+
+    Time:   0.84 s Solving Shock 178
+
+    Time:   0.84 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8408 s Solving Shock 179
+
+    Time: 0.8408 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8408 s Solving Shock 180
+
+    Time: 0.8408 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8428 s Solving Shock 181
+
+    Time: 0.8428 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8453 s Solving Shock 182
+
+    Time: 0.8453 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8463 s Current time step 0.001 s
+
+    Time: 0.8473 s Solving Shock 183
+
+    Time: 0.8473 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8477 s Solving Shock 184
+
+    Time: 0.8477 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8484 s Solving Shock 185
+
+    Time: 0.8484 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8494 s Solving Shock 186
+
+    Time: 0.8494 s Processing Event "SlipToStickEvent"
+    Time: 0.8494 s Processing Event "SlipToStickEvent"
+
+    Time:   0.85 s Solving Shock 187
+
+    Time:   0.85 s Processing Event "SlipToStickEvent"
+
+    Time:  0.852 s Solving Shock 188
+
+    Time:  0.852 s Processing Event "SlipToStickEvent"
+    Time:  0.852 s Processing Event "SlipToStickEvent"
+    Current Time:  0.852 s Current time step 0.001 s
+
+    Time: 0.8521 s Solving Shock 189
+
+    Time: 0.8521 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8531 s Solving Shock 190
+
+    Time: 0.8531 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8541 s Solving Shock 191
+
+    Time: 0.8541 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8549 s Solving Shock 192
+
+    Time: 0.8549 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8551 s Solving Shock 193
+
+    Time: 0.8551 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8561 s Solving Shock 194
+
+    Time: 0.8561 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8571 s Current time step 0.001 s
+
+    Time: 0.8571 s Solving Shock 195
+
+    Time: 0.8571 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8581 s Solving Shock 196
+
+    Time: 0.8581 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8601 s Solving Shock 197
+
+    Time: 0.8601 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8611 s Solving Shock 198
+
+    Time: 0.8611 s Processing Event "SlipToStickEvent"
+    Time: 0.8611 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8615 s Solving Shock 199
+
+    Time: 0.8615 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8625 s Current time step 0.001 s
+
+    Time: 0.8626 s Solving Shock 200
+
+    Time: 0.8626 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8636 s Solving Shock 201
+
+    Time: 0.8636 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8646 s Solving Shock 202
+
+    Time: 0.8646 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8649 s Solving Shock 203
+
+    Time: 0.8649 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8669 s Solving Shock 204
+
+    Time: 0.8669 s Processing Event "SlipToStickEvent"
+
+    Time:  0.867 s Solving Shock 205
+
+    Time:  0.867 s Processing Event "SlipToStickEvent"
+    Current Time:  0.867 s Current time step 0.001 s
+
+    Time:  0.867 s Solving Shock 206
+
+    Time:  0.867 s Processing Event "SlipToStickEvent"
+
+    Time:  0.867 s Solving Shock 207
+
+    Time:  0.867 s Processing Event "SlipToStickEvent"
+
+    Time:  0.867 s Solving Shock 208
+
+    Time:  0.867 s Processing Event "SlipToStickEvent"
+
+    Time:  0.867 s Solving Shock 209
+
+    Time:  0.867 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8671 s Solving Shock 210
+
+    Time: 0.8671 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8671 s Solving Shock 211
+
+    Time: 0.8671 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8681 s Solving Shock 212
+
+    Time: 0.8681 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8696 s Solving Shock 213
+
+    Time: 0.8696 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8696 s Current time step 0.001 s
+
+    Time: 0.8706 s Solving Shock 214
+
+    Time: 0.8706 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8707 s Solving Shock 215
+
+    Time: 0.8707 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8717 s Solving Shock 216
+
+    Time: 0.8717 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 217
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 218
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 219
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 220
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8737 s Current time step 0.001 s
+
+    Time: 0.8737 s Solving Shock 221
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 222
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 223
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 224
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 225
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 226
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 227
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 228
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 229
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 230
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8737 s Current time step 0.001 s
+
+    Time: 0.8737 s Solving Shock 231
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 232
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 233
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 234
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 235
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 236
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 237
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 238
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 239
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 240
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8737 s Current time step 0.001 s
+
+    Time: 0.8737 s Solving Shock 241
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 242
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 243
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 244
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 245
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 246
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 247
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 248
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 249
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8737 s Solving Shock 250
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8737 s Current time step 0.001 s
+
+    Time: 0.8737 s Solving Shock 251
+
+    Time: 0.8737 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8757 s Solving Shock 252
+
+    Time: 0.8757 s Processing Event "SlipToStickEvent"
+    Time: 0.8757 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8774 s Solving Shock 253
+
+    Time: 0.8774 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8774 s Solving Shock 254
+
+    Time: 0.8774 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8776 s Solving Shock 255
+
+    Time: 0.8776 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8786 s Solving Shock 256
+
+    Time: 0.8786 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8786 s Current time step 0.001 s
+
+    Time: 0.8836 s Solving Shock 257
+
+    Time: 0.8836 s Processing Event "SlipToStickEvent"
+    Time: 0.8836 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8846 s Solving Shock 258
+
+    Time: 0.8846 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8852 s Solving Shock 259
+
+    Time: 0.8852 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8862 s Current time step 0.001 s
+
+    Time: 0.8862 s Solving Shock 260
+
+    Time: 0.8862 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8893 s Solving Shock 261
+
+    Time: 0.8893 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8913 s Solving Shock 262
+
+    Time: 0.8913 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8918 s Solving Shock 263
+
+    Time: 0.8918 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8919 s Solving Shock 264
+
+    Time: 0.8919 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8919 s Current time step 0.001 s
+
+    Time: 0.8927 s Solving Shock 265
+
+    Time: 0.8927 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8927 s Solving Shock 266
+
+    Time: 0.8927 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8947 s Solving Shock 267
+
+    Time: 0.8947 s Processing Event "SlipToStickEvent"
+    Time: 0.8947 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8957 s Solving Shock 268
+
+    Time: 0.8957 s Processing Event "SlipToStickEvent"
+
+    Time: 0.8965 s Solving Shock 269
+
+    Time: 0.8965 s Processing Event "SlipToStickEvent"
+    Current Time: 0.8985 s Current time step 0.001 s
+
+    Time: 0.8985 s Solving Shock 270
+
+    Time: 0.8985 s Processing Event "SlipToStickEvent"
+    Time: 0.8985 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 271
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 272
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 273
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 274
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 275
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9005 s Solving Shock 276
+
+    Time: 0.9005 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9015 s Current time step 0.001 s
+
+    Time: 0.9015 s Solving Shock 277
+
+    Time: 0.9015 s Processing Event "SlipToStickEvent"
+    Time: 0.9015 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9025 s Solving Shock 278
+
+    Time: 0.9025 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9035 s Solving Shock 279
+
+    Time: 0.9035 s Processing Event "SlipToStickEvent"
+    Time: 0.9035 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9051 s Solving Shock 280
+
+    Time: 0.9051 s Processing Event "SlipToStickEvent"
+
+    Time:  0.906 s Solving Shock 281
+
+    Time:  0.906 s Processing Event "SlipToStickEvent"
+
+    Time:  0.907 s Solving Shock 282
+
+    Time:  0.907 s Processing Event "SlipToStickEvent"
+    Time:  0.907 s Processing Event "SlipToStickEvent"
+    Current Time:  0.907 s Current time step 0.001 s
+
+    Time: 0.9077 s Solving Shock 283
+
+    Time: 0.9077 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9079 s Solving Shock 284
+
+    Time: 0.9079 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9089 s Solving Shock 285
+
+    Time: 0.9089 s Processing Event "SlipToStickEvent"
+
+    Time:  0.909 s Solving Shock 286
+
+    Time:  0.909 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9116 s Solving Shock 287
+
+    Time: 0.9116 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9126 s Solving Shock 288
+
+    Time: 0.9126 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9126 s Current time step 0.001 s
+
+    Time: 0.9136 s Solving Shock 289
+
+    Time: 0.9136 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9136 s Solving Shock 290
+
+    Time: 0.9136 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9146 s Solving Shock 291
+
+    Time: 0.9146 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9146 s Solving Shock 292
+
+    Time: 0.9146 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9148 s Solving Shock 293
+
+    Time: 0.9148 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9156 s Solving Shock 294
+
+    Time: 0.9156 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9161 s Solving Shock 295
+
+    Time: 0.9161 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9171 s Current time step 0.001 s
+
+    Time: 0.9173 s Solving Shock 296
+
+    Time: 0.9173 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9187 s Solving Shock 297
+
+    Time: 0.9187 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9203 s Solving Shock 298
+
+    Time: 0.9203 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9213 s Solving Shock 299
+
+    Time: 0.9213 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9219 s Solving Shock 300
+
+    Time: 0.9219 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9239 s Solving Shock 301
+
+    Time: 0.9239 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9239 s Current time step 0.001 s
+
+    Time: 0.9259 s Solving Shock 302
+
+    Time: 0.9259 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9284 s Solving Shock 303
+
+    Time: 0.9284 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9304 s Solving Shock 304
+
+    Time: 0.9304 s Processing Event "SlipToStickEvent"
+
+    Time:  0.931 s Solving Shock 305
+
+    Time:  0.931 s Processing Event "SlipToStickEvent"
+    Current Time:  0.931 s Current time step 0.001 s
+
+    Time: 0.9314 s Solving Shock 306
+
+    Time: 0.9314 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9334 s Solving Shock 307
+
+    Time: 0.9334 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9344 s Solving Shock 308
+
+    Time: 0.9344 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9364 s Solving Shock 309
+
+    Time: 0.9364 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9382 s Solving Shock 310
+
+    Time: 0.9382 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9382 s Current time step 0.001 s
+
+    Time: 0.9385 s Solving Shock 311
+
+    Time: 0.9385 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9405 s Solving Shock 312
+
+    Time: 0.9405 s Processing Event "SlipToStickEvent"
+
+    Time:  0.941 s Solving Shock 313
+
+    Time:  0.941 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9419 s Solving Shock 314
+
+    Time: 0.9419 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9439 s Solving Shock 315
+
+    Time: 0.9439 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9439 s Solving Shock 316
+
+    Time: 0.9439 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9439 s Current time step 0.001 s
+
+    Time: 0.9445 s Solving Shock 317
+
+    Time: 0.9445 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9455 s Solving Shock 318
+
+    Time: 0.9455 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9455 s Solving Shock 319
+
+    Time: 0.9455 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9465 s Solving Shock 320
+
+    Time: 0.9465 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9468 s Solving Shock 321
+
+    Time: 0.9468 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9498 s Current time step 0.001 s
+
+    Time: 0.9498 s Solving Shock 322
+
+    Time: 0.9498 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9498 s Solving Shock 323
+
+    Time: 0.9498 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9508 s Solving Shock 324
+
+    Time: 0.9508 s Processing Event "SlipToStickEvent"
+    Time: 0.9508 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9519 s Solving Shock 325
+
+    Time: 0.9519 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9529 s Solving Shock 326
+
+    Time: 0.9529 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9529 s Solving Shock 327
+
+    Time: 0.9529 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9533 s Solving Shock 328
+
+    Time: 0.9533 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9533 s Current time step 0.001 s
+
+    Time: 0.9543 s Solving Shock 329
+
+    Time: 0.9543 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9553 s Solving Shock 330
+
+    Time: 0.9553 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9563 s Solving Shock 331
+
+    Time: 0.9563 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9572 s Solving Shock 332
+
+    Time: 0.9572 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9584 s Solving Shock 333
+
+    Time: 0.9584 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9585 s Solving Shock 334
+
+    Time: 0.9585 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9585 s Current time step 0.001 s
+
+    Time: 0.9595 s Solving Shock 335
+
+    Time: 0.9595 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9605 s Solving Shock 336
+
+    Time: 0.9605 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9625 s Solving Shock 337
+
+    Time: 0.9625 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9639 s Solving Shock 338
+
+    Time: 0.9639 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9649 s Current time step 0.001 s
+
+    Time: 0.9655 s Solving Shock 339
+
+    Time: 0.9655 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9675 s Solving Shock 340
+
+    Time: 0.9675 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9685 s Solving Shock 341
+
+    Time: 0.9685 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9695 s Solving Shock 342
+
+    Time: 0.9695 s Processing Event "SlipToStickEvent"
+    Time: 0.9695 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9705 s Solving Shock 343
+
+    Time: 0.9705 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9705 s Current time step 0.001 s
+
+    Time: 0.9722 s Solving Shock 344
+
+    Time: 0.9722 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9752 s Solving Shock 345
+
+    Time: 0.9752 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9762 s Solving Shock 346
+
+    Time: 0.9762 s Processing Event "SlipToStickEvent"
+    Time: 0.9762 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9782 s Current time step 0.001 s
+
+    Time: 0.9782 s Solving Shock 347
+
+    Time: 0.9782 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9802 s Solving Shock 348
+
+    Time: 0.9802 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9807 s Solving Shock 349
+
+    Time: 0.9807 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9809 s Solving Shock 350
+
+    Time: 0.9809 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9831 s Solving Shock 351
+
+    Time: 0.9831 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9841 s Current time step 0.001 s
+
+    Time: 0.9841 s Solving Shock 352
+
+    Time: 0.9841 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9848 s Solving Shock 353
+
+    Time: 0.9848 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9849 s Solving Shock 354
+
+    Time: 0.9849 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9849 s Solving Shock 355
+
+    Time: 0.9849 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9853 s Solving Shock 356
+
+    Time: 0.9853 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9861 s Solving Shock 357
+
+    Time: 0.9861 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9871 s Solving Shock 358
+
+    Time: 0.9871 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9875 s Solving Shock 359
+
+    Time: 0.9875 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9885 s Current time step 0.001 s
+
+    Time: 0.9895 s Solving Shock 360
+
+    Time: 0.9895 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9915 s Solving Shock 361
+
+    Time: 0.9915 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9925 s Solving Shock 362
+
+    Time: 0.9925 s Processing Event "SlipToStickEvent"
+
+    Time:  0.993 s Solving Shock 363
+
+    Time:  0.993 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9935 s Solving Shock 364
+
+    Time: 0.9935 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9945 s Current time step 0.001 s
+
+    Time: 0.9945 s Solving Shock 365
+
+    Time: 0.9945 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9953 s Solving Shock 366
+
+    Time: 0.9953 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9957 s Solving Shock 367
+
+    Time: 0.9957 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9967 s Solving Shock 368
+
+    Time: 0.9967 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9977 s Solving Shock 369
+
+    Time: 0.9977 s Processing Event "SlipToStickEvent"
+    Time: 0.9977 s Processing Event "SlipToStickEvent"
+
+    Time: 0.9987 s Solving Shock 370
+
+    Time: 0.9987 s Processing Event "SlipToStickEvent"
+    Current Time: 0.9997 s Current time step 0.001 s
+
+    Time: 0.9997 s Solving Shock 371
+
+    Time: 0.9997 s Processing Event "SlipToStickEvent"
+    Time: 0.9997 s Processing Event "SlipToStickEvent"
+
+    Time:      1 s - Status of loads and joint conditions
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 1 )" is active
+     - Load "10N ( Load Step 1 )" is active
+     - Load "10N ( Load Step 1 )" is active
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "Friction Force" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Force" is active
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 1.000000e-03
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      1 s Processing Event "Load step transition 0"
+
+    Time:  1.001 s Solving Shock 372
+
+    Time:  1.001 s Processing Event "SlipToStickEvent"
+
+    Time:  1.002 s Solving Shock 373
+
+    Time:  1.002 s Processing Event "SlipToStickEvent"
+
+    Time:  1.002 s Solving Shock 374
+
+    Time:  1.002 s Processing Event "SlipToStickEvent"
+    Time:  1.002 s Processing Event "SlipToStickEvent"
+
+    Time:  1.003 s Solving Shock 375
+
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+
+    Time:  1.003 s Solving Shock 376
+
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+
+    Time:  1.003 s Solving Shock 377
+
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+
+    Time:  1.003 s Solving Shock 378
+
+    Time:  1.003 s Processing Event "SlipToStickEvent"
+
+    Time:  1.029 s Solving Shock 379
+
+    Time:  1.029 s Processing Event "SlipToStickEvent"
+    Current Time:  1.029 s Current time step 0.05 s
+
+    Time:  1.029 s Solving Shock 380
+
+    Time:  1.029 s Processing Event "SlipToStickEvent"
+    Time:  1.029 s Processing Event "SlipToStickEvent"
+
+    Time:  1.029 s Solving Shock 381
+
+    Time:  1.029 s Processing Event "SlipToStickEvent"
+
+    Time:  1.049 s Solving Shock 382
+
+    Time:  1.049 s Processing Event "SlipToStickEvent"
+
+    Time:  1.049 s Solving Shock 383
+
+    Time:  1.049 s Processing Event "SlipToStickEvent"
+    Time:  1.049 s Processing Event "SlipToStickEvent"
+
+    Time:  1.049 s Solving Shock 384
+
+    Time:  1.049 s Processing Event "SlipToStickEvent"
+
+    Time:  1.049 s Solving Shock 385
+
+    Time:  1.049 s Processing Event "SlipToStickEvent"
+
+    Time:  1.086 s Solving Shock 386
+
+    Time:  1.086 s Processing Event "SlipToStickEvent"
+
+    Time:  1.086 s Solving Shock 387
+
+    Time:  1.086 s Processing Event "SlipToStickEvent"
+    Time:  1.086 s Processing Event "SlipToStickEvent"
+    Time:  1.086 s Processing Event "SlipToStickEvent"
+
+    Time:  1.086 s Solving Shock 388
+
+    Time:  1.086 s Processing Event "SlipToStickEvent"
+
+    Time:  1.098 s Solving Shock 389
+
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+    Current Time:  1.098 s Current time step 0.05 s
+
+    Time:  1.098 s Solving Shock 390
+
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+
+    Time:  1.098 s Solving Shock 391
+
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+
+    Time:  1.098 s Solving Shock 392
+
+    Time:  1.098 s Processing Event "SlipToStickEvent"
+
+    Time:  1.119 s Solving Shock 393
+
+    Time:  1.119 s Processing Event "SlipToStickEvent"
+
+    Time:  1.119 s Solving Shock 394
+
+    Time:  1.119 s Processing Event "SlipToStickEvent"
+
+    Time:  1.119 s Solving Shock 395
+
+    Time:  1.119 s Processing Event "SlipToStickEvent"
+
+    Time:  1.152 s Solving Shock 396
+
+    Time:  1.152 s Processing Event "SlipToStickEvent"
+
+    Time:  1.152 s Solving Shock 397
+
+    Time:  1.152 s Processing Event "SlipToStickEvent"
+
+    Time:  1.152 s Solving Shock 398
+
+    Time:  1.152 s Processing Event "SlipToStickEvent"
+    Time:  1.152 s Processing Event "SlipToStickEvent"
+
+    Time:  1.184 s Solving Shock 399
+
+    Time:  1.184 s Processing Event "SlipToStickEvent"
+    Current Time:  1.184 s Current time step 0.05 s
+
+    Time:  1.184 s Solving Shock 400
+
+    Time:  1.184 s Processing Event "SlipToStickEvent"
+
+    Time:  1.184 s Solving Shock 401
+
+    Time:  1.184 s Processing Event "SlipToStickEvent"
+
+    Time:  1.212 s Solving Shock 402
+
+    Time:  1.212 s Processing Event "SlipToStickEvent"
+
+    Time:  1.212 s Solving Shock 403
+
+    Time:  1.212 s Processing Event "SlipToStickEvent"
+    Time:  1.212 s Processing Event "SlipToStickEvent"
+
+    Time:  1.212 s Solving Shock 404
+
+    Time:  1.212 s Processing Event "SlipToStickEvent"
+
+    Time:  1.218 s Solving Shock 405
+
+    Time:  1.218 s Processing Event "SlipToStickEvent"
+
+    Time:  1.218 s Solving Shock 406
+
+    Time:  1.218 s Processing Event "SlipToStickEvent"
+    Time:  1.218 s Processing Event "SlipToStickEvent"
+    Time:  1.218 s Processing Event "SlipToStickEvent"
+
+    Time:  1.241 s Solving Shock 407
+
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+
+    Time:  1.241 s Solving Shock 408
+
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+
+    Time:  1.241 s Solving Shock 409
+
+    Time:  1.241 s Processing Event "SlipToStickEvent"
+    Current Time:  1.241 s Current time step 0.05 s
+
+    Time:  1.267 s Solving Shock 410
+
+    Time:  1.267 s Processing Event "SlipToStickEvent"
+
+    Time:  1.267 s Solving Shock 411
+
+    Time:  1.267 s Processing Event "SlipToStickEvent"
+
+    Time:  1.298 s Solving Shock 412
+
+    Time:  1.298 s Processing Event "SlipToStickEvent"
+
+    Time:  1.298 s Solving Shock 413
+
+    Time:  1.298 s Processing Event "SlipToStickEvent"
+    Time:  1.298 s Processing Event "SlipToStickEvent"
+    Time:  1.298 s Processing Event "SlipToStickEvent"
+
+    Time:  1.298 s Solving Shock 414
+
+    Time:  1.298 s Processing Event "SlipToStickEvent"
+
+    Time:  1.309 s Solving Shock 415
+
+    Time:  1.309 s Processing Event "SlipToStickEvent"
+
+    Time:  1.309 s Solving Shock 416
+
+    Time:  1.309 s Processing Event "SlipToStickEvent"
+    Time:  1.309 s Processing Event "SlipToStickEvent"
+
+    Time:  1.309 s Solving Shock 417
+
+    Time:  1.309 s Processing Event "SlipToStickEvent"
+    Time:  1.309 s Processing Event "SlipToStickEvent"
+
+    Time:   1.34 s Solving Shock 418
+
+    Time:   1.34 s Processing Event "SlipToStickEvent"
+
+    Time:   1.34 s Solving Shock 419
+
+    Time:   1.34 s Processing Event "SlipToStickEvent"
+    Time:   1.34 s Processing Event "SlipToStickEvent"
+    Time:   1.34 s Processing Event "SlipToStickEvent"
+    Current Time:   1.34 s Current time step 0.05 s
+
+    Time:  1.357 s Solving Shock 420
+
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+
+    Time:  1.357 s Solving Shock 421
+
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+
+    Time:  1.357 s Solving Shock 422
+
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+    Time:  1.357 s Processing Event "SlipToStickEvent"
+
+    Time:  1.376 s Solving Shock 423
+
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+
+    Time:  1.376 s Solving Shock 424
+
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+
+    Time:  1.376 s Solving Shock 425
+
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+
+    Time:  1.376 s Solving Shock 426
+
+    Time:  1.376 s Processing Event "SlipToStickEvent"
+
+    Time:  1.389 s Solving Shock 427
+
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+
+    Time:  1.389 s Solving Shock 428
+
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+
+    Time:  1.389 s Solving Shock 429
+
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+    Current Time:  1.389 s Current time step 0.05 s
+
+    Time:  1.389 s Solving Shock 430
+
+    Time:  1.389 s Processing Event "SlipToStickEvent"
+
+    Time:  1.421 s Solving Shock 431
+
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+
+    Time:  1.421 s Solving Shock 432
+
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+
+    Time:  1.421 s Solving Shock 433
+
+    Time:  1.421 s Processing Event "SlipToStickEvent"
+
+    Time:  1.423 s Solving Shock 434
+
+    Time:  1.423 s Processing Event "SlipToStickEvent"
+
+    Time:  1.423 s Solving Shock 435
+
+    Time:  1.423 s Processing Event "SlipToStickEvent"
+    Time:  1.423 s Processing Event "SlipToStickEvent"
+    Time:  1.423 s Processing Event "SlipToStickEvent"
+
+    Time:  1.423 s Solving Shock 436
+
+    Time:  1.423 s Processing Event "SlipToStickEvent"
+
+    Time:   1.43 s Solving Shock 437
+
+    Time:   1.43 s Processing Event "SlipToStickEvent"
+
+    Time:   1.43 s Solving Shock 438
+
+    Time:   1.43 s Processing Event "SlipToStickEvent"
+    Time:   1.43 s Processing Event "SlipToStickEvent"
+    Time:   1.43 s Processing Event "SlipToStickEvent"
+
+    Time:   1.43 s Solving Shock 439
+
+    Time:   1.43 s Processing Event "SlipToStickEvent"
+    Current Time:   1.43 s Current time step 0.05 s
+
+    Time:  1.464 s Solving Shock 440
+
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+
+    Time:  1.464 s Solving Shock 441
+
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+
+    Time:  1.464 s Solving Shock 442
+
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+    Time:  1.464 s Processing Event "SlipToStickEvent"
+
+    Time:  1.481 s Solving Shock 443
+
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+
+    Time:  1.481 s Solving Shock 444
+
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+
+    Time:  1.481 s Solving Shock 445
+
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+
+    Time:  1.481 s Solving Shock 446
+
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+    Time:  1.481 s Processing Event "SlipToStickEvent"
+
+    Time:  1.498 s Solving Shock 447
+
+    Time:  1.498 s Processing Event "SlipToStickEvent"
+
+    Time:  1.498 s Solving Shock 448
+
+    Time:  1.498 s Processing Event "SlipToStickEvent"
+    Time:  1.498 s Processing Event "SlipToStickEvent"
+    Time:  1.498 s Processing Event "SlipToStickEvent"
+
+    Time:  1.524 s Solving Shock 449
+
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+    Current Time:  1.524 s Current time step 0.05 s
+
+    Time:  1.524 s Solving Shock 450
+
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+    Time:  1.524 s Processing Event "SlipToStickEvent"
+
+    Time:  1.563 s Solving Shock 451
+
+    Time:  1.563 s Processing Event "SlipToStickEvent"
+
+    Time:  1.563 s Solving Shock 452
+
+    Time:  1.563 s Processing Event "SlipToStickEvent"
+    Time:  1.563 s Processing Event "SlipToStickEvent"
+
+    Time:  1.563 s Solving Shock 453
+
+    Time:  1.563 s Processing Event "SlipToStickEvent"
+
+    Time:  1.588 s Solving Shock 454
+
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+
+    Time:  1.588 s Solving Shock 455
+
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+
+    Time:  1.588 s Solving Shock 456
+
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+    Time:  1.588 s Processing Event "SlipToStickEvent"
+
+    Time:  1.618 s Solving Shock 457
+
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+
+    Time:  1.618 s Solving Shock 458
+
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+
+    Time:  1.618 s Solving Shock 459
+
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+    Time:  1.618 s Processing Event "SlipToStickEvent"
+    Current Time:  1.618 s Current time step 0.05 s
+
+    Time:  1.654 s Solving Shock 460
+
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+
+    Time:  1.654 s Solving Shock 461
+
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+
+    Time:  1.654 s Solving Shock 462
+
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+
+    Time:  1.654 s Solving Shock 463
+
+    Time:  1.654 s Processing Event "SlipToStickEvent"
+
+    Time:  1.699 s Solving Shock 464
+
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+
+    Time:  1.699 s Solving Shock 465
+
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+
+    Time:  1.699 s Solving Shock 466
+
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+
+    Time:  1.699 s Solving Shock 467
+
+    Time:  1.699 s Processing Event "SlipToStickEvent"
+
+    Time:  1.738 s Solving Shock 468
+
+    Time:  1.738 s Processing Event "SlipToStickEvent"
+
+    Time:  1.738 s Solving Shock 469
+
+    Time:  1.738 s Processing Event "SlipToStickEvent"
+    Current Time:  1.738 s Current time step 0.05 s
+
+    Time:  1.738 s Solving Shock 470
+
+    Time:  1.738 s Processing Event "SlipToStickEvent"
+
+    Time:  1.765 s Solving Shock 471
+
+    Time:  1.765 s Processing Event "SlipToStickEvent"
+
+    Time:  1.765 s Solving Shock 472
+
+    Time:  1.765 s Processing Event "SlipToStickEvent"
+    Time:  1.765 s Processing Event "SlipToStickEvent"
+
+    Time:  1.765 s Solving Shock 473
+
+    Time:  1.765 s Processing Event "SlipToStickEvent"
+
+    Time:  1.766 s Solving Shock 474
+
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+
+    Time:  1.766 s Solving Shock 475
+
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+
+    Time:  1.766 s Solving Shock 476
+
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+    Time:  1.766 s Processing Event "SlipToStickEvent"
+
+    Time:  1.797 s Solving Shock 477
+
+    Time:  1.797 s Processing Event "SlipToStickEvent"
+
+    Time:  1.797 s Solving Shock 478
+
+    Time:  1.797 s Processing Event "SlipToStickEvent"
+
+    Time:  1.813 s Solving Shock 479
+
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+    Current Time:  1.813 s Current time step 0.05 s
+
+    Time:  1.813 s Solving Shock 480
+
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+
+    Time:  1.813 s Solving Shock 481
+
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+
+    Time:  1.813 s Solving Shock 482
+
+    Time:  1.813 s Processing Event "SlipToStickEvent"
+
+    Time:  1.826 s Solving Shock 483
+
+    Time:  1.826 s Processing Event "SlipToStickEvent"
+
+    Time:  1.826 s Solving Shock 484
+
+    Time:  1.826 s Processing Event "SlipToStickEvent"
+
+    Time:  1.826 s Solving Shock 485
+
+    Time:  1.826 s Processing Event "SlipToStickEvent"
+    Time:  1.826 s Processing Event "SlipToStickEvent"
+
+    Time:  1.826 s Solving Shock 486
+
+    Time:  1.826 s Processing Event "SlipToStickEvent"
+
+    Time:  1.848 s Solving Shock 487
+
+    Time:  1.848 s Processing Event "SlipToStickEvent"
+
+    Time:  1.848 s Solving Shock 488
+
+    Time:  1.848 s Processing Event "SlipToStickEvent"
+    Time:  1.848 s Processing Event "SlipToStickEvent"
+
+    Time:  1.873 s Solving Shock 489
+
+    Time:  1.873 s Processing Event "SlipToStickEvent"
+    Current Time:  1.873 s Current time step 0.05 s
+
+    Time:  1.873 s Solving Shock 490
+
+    Time:  1.873 s Processing Event "SlipToStickEvent"
+
+    Time:  1.884 s Solving Shock 491
+
+    Time:  1.884 s Processing Event "SlipToStickEvent"
+
+    Time:  1.884 s Solving Shock 492
+
+    Time:  1.884 s Processing Event "SlipToStickEvent"
+    Time:  1.884 s Processing Event "SlipToStickEvent"
+
+    Time:  1.884 s Solving Shock 493
+
+    Time:  1.884 s Processing Event "SlipToStickEvent"
+
+    Time:  1.884 s Solving Shock 494
+
+    Time:  1.884 s Processing Event "SlipToStickEvent"
+
+    Time:  1.885 s Solving Shock 495
+
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+
+    Time:  1.885 s Solving Shock 496
+
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+
+    Time:  1.885 s Solving Shock 497
+
+    Time:  1.885 s Processing Event "SlipToStickEvent"
+
+    Time:  1.894 s Solving Shock 498
+
+    Time:  1.894 s Processing Event "SlipToStickEvent"
+
+    Time:  1.894 s Solving Shock 499
+
+    Time:  1.894 s Processing Event "SlipToStickEvent"
+    Current Time:  1.894 s Current time step 0.05 s
+
+    Time:  1.894 s Solving Shock 500
+
+    Time:  1.894 s Processing Event "SlipToStickEvent"
+    Time:  1.894 s Processing Event "SlipToStickEvent"
+
+    Time:  1.923 s Solving Shock 501
+
+    Time:  1.923 s Processing Event "SlipToStickEvent"
+
+    Time:  1.923 s Solving Shock 502
+
+    Time:  1.923 s Processing Event "SlipToStickEvent"
+    Time:  1.923 s Processing Event "SlipToStickEvent"
+    Time:  1.923 s Processing Event "SlipToStickEvent"
+
+    Time:  1.923 s Solving Shock 503
+
+    Time:  1.923 s Processing Event "SlipToStickEvent"
+
+    Time:  1.934 s Solving Shock 504
+
+    Time:  1.934 s Processing Event "SlipToStickEvent"
+
+    Time:  1.934 s Solving Shock 505
+
+    Time:  1.934 s Processing Event "SlipToStickEvent"
+
+    Time:  1.935 s Solving Shock 506
+
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+
+    Time:  1.935 s Solving Shock 507
+
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+
+    Time:  1.935 s Solving Shock 508
+
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+    Time:  1.935 s Processing Event "SlipToStickEvent"
+
+    Time:  1.941 s Solving Shock 509
+
+    Time:  1.941 s Processing Event "SlipToStickEvent"
+    Current Time:  1.941 s Current time step 0.0380961 s
+
+    Time:  1.941 s Solving Shock 510
+
+    Time:  1.941 s Processing Event "SlipToStickEvent"
+
+    Time:  1.941 s Solving Shock 511
+
+    Time:  1.941 s Processing Event "SlipToStickEvent"
+
+    Time:   1.96 s Solving Shock 512
+
+    Time:   1.96 s Processing Event "SlipToStickEvent"
+
+    Time:   1.96 s Solving Shock 513
+
+    Time:   1.96 s Processing Event "SlipToStickEvent"
+
+    Time:   1.96 s Solving Shock 514
+
+    Time:   1.96 s Processing Event "SlipToStickEvent"
+    Time:   1.96 s Processing Event "SlipToStickEvent"
+
+    Time:   1.96 s Solving Shock 515
+
+    Time:   1.96 s Processing Event "SlipToStickEvent"
+
+    Time:  1.971 s Solving Shock 516
+
+    Time:  1.971 s Processing Event "SlipToStickEvent"
+
+    Time:  1.971 s Solving Shock 517
+
+    Time:  1.971 s Processing Event "SlipToStickEvent"
+    Time:  1.971 s Processing Event "SlipToStickEvent"
+    Time:  1.971 s Processing Event "SlipToStickEvent"
+
+    Time:  1.979 s Solving Shock 518
+
+    Time:  1.979 s Processing Event "SlipToStickEvent"
+
+    Time:  1.979 s Solving Shock 519
+
+    Time:  1.979 s Processing Event "SlipToStickEvent"
+    Current Time:  1.979 s Current time step 0.000925486 s
+
+    Time:   1.98 s Solving Shock 520
+
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+
+    Time:   1.98 s Solving Shock 521
+
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+
+    Time:   1.98 s Solving Shock 522
+
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+    Time:   1.98 s Processing Event "SlipToStickEvent"
+
+    Time:      2 s - Status of loads and joint conditions
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 2 )" is active
+     - Load "10N ( Load Step 2 )" is active
+     - Load "10N ( Load Step 2 )" is active
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "Friction Force" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Force" is active
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      2 s Processing Event "Load step transition 1"
+
+    Time:      2 s Solving Shock 523
+
+    Time:      2 s Processing Event "SlipToStickEvent"
+    Time:      2 s Processing Event "SlipToStickEvent"
+
+    Time:  2.026 s Solving Shock 524
+
+    Time:  2.026 s Processing Event "SlipToStickEvent"
+
+    Time:  2.026 s Solving Shock 525
+
+    Time:  2.026 s Processing Event "SlipToStickEvent"
+
+    Time:  2.026 s Solving Shock 526
+
+    Time:  2.026 s Processing Event "SlipToStickEvent"
+
+    Time:  2.026 s Solving Shock 527
+
+    Time:  2.026 s Processing Event "SlipToStickEvent"
+    Time:  2.026 s Processing Event "SlipToStickEvent"
+    Current Time:  2.026 s Current time step 0.05 s
+
+    Time:  2.064 s Solving Shock 528
+
+    Time:  2.064 s Processing Event "SlipToStickEvent"
+
+    Time:  2.064 s Solving Shock 529
+
+    Time:  2.064 s Processing Event "SlipToStickEvent"
+
+    Time:  2.064 s Solving Shock 530
+
+    Time:  2.064 s Processing Event "SlipToStickEvent"
+
+    Time:  2.064 s Solving Shock 531
+
+    Time:  2.064 s Processing Event "SlipToStickEvent"
+
+    Time:  2.088 s Solving Shock 532
+
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+
+    Time:  2.088 s Solving Shock 533
+
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+
+    Time:  2.088 s Solving Shock 534
+
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+    Time:  2.088 s Processing Event "SlipToStickEvent"
+
+    Time:  2.115 s Solving Shock 535
+
+    Time:  2.115 s Processing Event "SlipToStickEvent"
+
+    Time:  2.115 s Solving Shock 536
+
+    Time:  2.115 s Processing Event "SlipToStickEvent"
+
+    Time:  2.115 s Solving Shock 537
+
+    Time:  2.115 s Processing Event "SlipToStickEvent"
+    Time:  2.115 s Processing Event "SlipToStickEvent"
+    Current Time:  2.115 s Current time step 0.05 s
+
+    Time:  2.149 s Solving Shock 538
+
+    Time:  2.149 s Processing Event "SlipToStickEvent"
+
+    Time:  2.149 s Solving Shock 539
+
+    Time:  2.149 s Processing Event "SlipToStickEvent"
+    Time:  2.149 s Processing Event "SlipToStickEvent"
+
+    Time:  2.149 s Solving Shock 540
+
+    Time:  2.149 s Processing Event "SlipToStickEvent"
+    Time:  2.149 s Processing Event "SlipToStickEvent"
+
+    Time:  2.165 s Solving Shock 541
+
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+
+    Time:  2.165 s Solving Shock 542
+
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+
+    Time:  2.165 s Solving Shock 543
+
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+
+    Time:  2.165 s Solving Shock 544
+
+    Time:  2.165 s Processing Event "SlipToStickEvent"
+
+    Time:  2.196 s Solving Shock 545
+
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+
+    Time:  2.196 s Solving Shock 546
+
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+
+    Time:  2.196 s Solving Shock 547
+
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+    Current Time:  2.196 s Current time step 0.05 s
+
+    Time:  2.196 s Solving Shock 548
+
+    Time:  2.196 s Processing Event "SlipToStickEvent"
+
+    Time:  2.228 s Solving Shock 549
+
+    Time:  2.228 s Processing Event "SlipToStickEvent"
+
+    Time:  2.228 s Solving Shock 550
+
+    Time:  2.228 s Processing Event "SlipToStickEvent"
+    Time:  2.228 s Processing Event "SlipToStickEvent"
+    Time:  2.228 s Processing Event "SlipToStickEvent"
+
+    Time:  2.228 s Solving Shock 551
+
+    Time:  2.228 s Processing Event "SlipToStickEvent"
+
+    Time:  2.256 s Solving Shock 552
+
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+
+    Time:  2.256 s Solving Shock 553
+
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+
+    Time:  2.256 s Solving Shock 554
+
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+
+    Time:  2.256 s Solving Shock 555
+
+    Time:  2.256 s Processing Event "SlipToStickEvent"
+
+    Time:  2.262 s Solving Shock 556
+
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+
+    Time:  2.262 s Solving Shock 557
+
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+    Current Time:  2.262 s Current time step 0.05 s
+
+    Time:  2.262 s Solving Shock 558
+
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+
+    Time:  2.262 s Solving Shock 559
+
+    Time:  2.262 s Processing Event "SlipToStickEvent"
+
+    Time:  2.287 s Solving Shock 560
+
+    Time:  2.287 s Processing Event "SlipToStickEvent"
+
+    Time:  2.287 s Solving Shock 561
+
+    Time:  2.287 s Processing Event "SlipToStickEvent"
+
+    Time:  2.287 s Solving Shock 562
+
+    Time:  2.287 s Processing Event "SlipToStickEvent"
+    Time:  2.287 s Processing Event "SlipToStickEvent"
+    Time:  2.287 s Processing Event "SlipToStickEvent"
+
+    Time:  2.309 s Solving Shock 563
+
+    Time:  2.309 s Processing Event "SlipToStickEvent"
+
+    Time:  2.309 s Solving Shock 564
+
+    Time:  2.309 s Processing Event "SlipToStickEvent"
+    Time:  2.309 s Processing Event "SlipToStickEvent"
+    Time:  2.309 s Processing Event "SlipToStickEvent"
+    Time:  2.309 s Processing Event "SlipToStickEvent"
+
+    Time:  2.343 s Solving Shock 565
+
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+
+    Time:  2.343 s Solving Shock 566
+
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+
+    Time:  2.343 s Solving Shock 567
+
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+    Current Time:  2.343 s Current time step 0.05 s
+
+    Time:  2.343 s Solving Shock 568
+
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+    Time:  2.343 s Processing Event "SlipToStickEvent"
+
+    Time:  2.355 s Solving Shock 569
+
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+
+    Time:  2.355 s Solving Shock 570
+
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+
+    Time:  2.355 s Solving Shock 571
+
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+
+    Time:  2.355 s Solving Shock 572
+
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+    Time:  2.355 s Processing Event "SlipToStickEvent"
+
+    Time:    2.4 s Solving Shock 573
+
+    Time:    2.4 s Processing Event "SlipToStickEvent"
+
+    Time:    2.4 s Solving Shock 574
+
+    Time:    2.4 s Processing Event "SlipToStickEvent"
+    Time:    2.4 s Processing Event "SlipToStickEvent"
+
+    Time:    2.4 s Solving Shock 575
+
+    Time:    2.4 s Processing Event "SlipToStickEvent"
+    Time:    2.4 s Processing Event "SlipToStickEvent"
+
+    Time:  2.436 s Solving Shock 576
+
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+
+    Time:  2.436 s Solving Shock 577
+
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+    Current Time:  2.436 s Current time step 0.05 s
+
+    Time:  2.436 s Solving Shock 578
+
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+    Time:  2.436 s Processing Event "SlipToStickEvent"
+
+    Time:  2.465 s Solving Shock 579
+
+    Time:  2.465 s Processing Event "SlipToStickEvent"
+
+    Time:  2.465 s Solving Shock 580
+
+    Time:  2.465 s Processing Event "SlipToStickEvent"
+    Time:  2.465 s Processing Event "SlipToStickEvent"
+
+    Time:  2.465 s Solving Shock 581
+
+    Time:  2.465 s Processing Event "SlipToStickEvent"
+
+    Time:  2.492 s Solving Shock 582
+
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+
+    Time:  2.492 s Solving Shock 583
+
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+
+    Time:  2.492 s Solving Shock 584
+
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+
+    Time:  2.492 s Solving Shock 585
+
+    Time:  2.492 s Processing Event "SlipToStickEvent"
+
+    Time:  2.524 s Solving Shock 586
+
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+
+    Time:  2.524 s Solving Shock 587
+
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+    Current Time:  2.524 s Current time step 0.05 s
+
+    Time:  2.524 s Solving Shock 588
+
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+    Time:  2.524 s Processing Event "SlipToStickEvent"
+
+    Time:  2.548 s Solving Shock 589
+
+    Time:  2.548 s Processing Event "SlipToStickEvent"
+
+    Time:  2.548 s Solving Shock 590
+
+    Time:  2.548 s Processing Event "SlipToStickEvent"
+    Time:  2.548 s Processing Event "SlipToStickEvent"
+    Time:  2.548 s Processing Event "SlipToStickEvent"
+
+    Time:  2.548 s Solving Shock 591
+
+    Time:  2.548 s Processing Event "SlipToStickEvent"
+
+    Time:   2.56 s Solving Shock 592
+
+    Time:   2.56 s Processing Event "SlipToStickEvent"
+
+    Time:   2.56 s Solving Shock 593
+
+    Time:   2.56 s Processing Event "SlipToStickEvent"
+
+    Time:   2.56 s Solving Shock 594
+
+    Time:   2.56 s Processing Event "SlipToStickEvent"
+    Time:   2.56 s Processing Event "SlipToStickEvent"
+
+    Time:  2.569 s Solving Shock 595
+
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+
+    Time:  2.569 s Solving Shock 596
+
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+
+    Time:  2.569 s Solving Shock 597
+
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+    Current Time:  2.569 s Current time step 0.05 s
+
+    Time:  2.569 s Solving Shock 598
+
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+    Time:  2.569 s Processing Event "SlipToStickEvent"
+
+    Time:  2.574 s Solving Shock 599
+
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+
+    Time:  2.574 s Solving Shock 600
+
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+
+    Time:  2.574 s Solving Shock 601
+
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+
+    Time:  2.574 s Solving Shock 602
+
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+    Time:  2.574 s Processing Event "SlipToStickEvent"
+
+    Time:  2.581 s Solving Shock 603
+
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+
+    Time:  2.581 s Solving Shock 604
+
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+
+    Time:  2.581 s Solving Shock 605
+
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+
+    Time:  2.581 s Solving Shock 606
+
+    Time:  2.581 s Processing Event "SlipToStickEvent"
+
+    Time:   2.61 s Solving Shock 607
+
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+    Current Time:   2.61 s Current time step 0.05 s
+
+    Time:   2.61 s Solving Shock 608
+
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+
+    Time:   2.61 s Solving Shock 609
+
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+
+    Time:   2.61 s Solving Shock 610
+
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+    Time:   2.61 s Processing Event "SlipToStickEvent"
+
+    Time:   2.66 s Solving Shock 611
+
+    Time:   2.66 s Processing Event "SlipToStickEvent"
+    Time:   2.66 s Processing Event "SlipToStickEvent"
+    Time:   2.66 s Processing Event "SlipToStickEvent"
+
+    Time:   2.66 s Solving Shock 612
+
+    Time:   2.66 s Processing Event "SlipToStickEvent"
+
+    Time:   2.66 s Solving Shock 613
+
+    Time:   2.66 s Processing Event "SlipToStickEvent"
+
+    Time:  2.668 s Solving Shock 614
+
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+
+    Time:  2.668 s Solving Shock 615
+
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+
+    Time:  2.668 s Solving Shock 616
+
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+    Time:  2.668 s Processing Event "SlipToStickEvent"
+    Current Time:  2.668 s Current time step 0.05 s
+
+    Time:  2.704 s Solving Shock 617
+
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+
+    Time:  2.704 s Solving Shock 618
+
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+
+    Time:  2.704 s Solving Shock 619
+
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+    Time:  2.704 s Processing Event "SlipToStickEvent"
+
+    Time:  2.736 s Solving Shock 620
+
+    Time:  2.736 s Processing Event "SlipToStickEvent"
+
+    Time:  2.736 s Solving Shock 621
+
+    Time:  2.736 s Processing Event "SlipToStickEvent"
+
+    Time:  2.736 s Solving Shock 622
+
+    Time:  2.736 s Processing Event "SlipToStickEvent"
+    Time:  2.736 s Processing Event "SlipToStickEvent"
+
+    Time:  2.786 s Solving Shock 623
+
+    Time:  2.786 s Processing Event "SlipToStickEvent"
+    Time:  2.786 s Processing Event "SlipToStickEvent"
+
+    Time:  2.811 s Solving Shock 624
+
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+
+    Time:  2.811 s Solving Shock 625
+
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+    Current Time:  2.811 s Current time step 0.05 s
+
+    Time:  2.811 s Solving Shock 626
+
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+    Time:  2.811 s Processing Event "SlipToStickEvent"
+
+    Time:   2.82 s Solving Shock 627
+
+    Time:   2.82 s Processing Event "SlipToStickEvent"
+
+    Time:   2.82 s Solving Shock 628
+
+    Time:   2.82 s Processing Event "SlipToStickEvent"
+    Time:   2.82 s Processing Event "SlipToStickEvent"
+    Time:   2.82 s Processing Event "SlipToStickEvent"
+
+    Time:   2.82 s Solving Shock 629
+
+    Time:   2.82 s Processing Event "SlipToStickEvent"
+
+    Time:  2.843 s Solving Shock 630
+
+    Time:  2.843 s Processing Event "SlipToStickEvent"
+
+    Time:  2.843 s Solving Shock 631
+
+    Time:  2.843 s Processing Event "SlipToStickEvent"
+    Time:  2.843 s Processing Event "SlipToStickEvent"
+
+    Time:  2.843 s Solving Shock 632
+
+    Time:  2.843 s Processing Event "SlipToStickEvent"
+
+    Time:  2.881 s Solving Shock 633
+
+    Time:  2.881 s Processing Event "SlipToStickEvent"
+
+    Time:  2.881 s Solving Shock 634
+
+    Time:  2.881 s Processing Event "SlipToStickEvent"
+    Time:  2.881 s Processing Event "SlipToStickEvent"
+
+    Time:  2.881 s Solving Shock 635
+
+    Time:  2.881 s Processing Event "SlipToStickEvent"
+    Current Time:  2.881 s Current time step 0.05 s
+
+    Time:  2.902 s Solving Shock 636
+
+    Time:  2.902 s Processing Event "SlipToStickEvent"
+
+    Time:  2.902 s Solving Shock 637
+
+    Time:  2.902 s Processing Event "SlipToStickEvent"
+
+    Time:  2.902 s Solving Shock 638
+
+    Time:  2.902 s Processing Event "SlipToStickEvent"
+
+    Time:  2.902 s Solving Shock 639
+
+    Time:  2.902 s Processing Event "SlipToStickEvent"
+
+    Time:  2.932 s Solving Shock 640
+
+    Time:  2.932 s Processing Event "SlipToStickEvent"
+
+    Time:  2.932 s Solving Shock 641
+
+    Time:  2.932 s Processing Event "SlipToStickEvent"
+    Time:  2.932 s Processing Event "SlipToStickEvent"
+    Time:  2.932 s Processing Event "SlipToStickEvent"
+
+    Time:  2.932 s Solving Shock 642
+
+    Time:  2.932 s Processing Event "SlipToStickEvent"
+
+    Time:  2.982 s Solving Shock 643
+
+    Time:  2.982 s Processing Event "SlipToStickEvent"
+    Time:  2.982 s Processing Event "SlipToStickEvent"
+    Time:  2.982 s Processing Event "SlipToStickEvent"
+    Time:  2.982 s Processing Event "SlipToStickEvent"
+
+    Time:      3 s - Status of loads and joint conditions
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 3 )" is active
+     - Load "10N ( Load Step 3 )" is active
+     - Load "10N ( Load Step 3 )" is active
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "10N ( Load Step 4 )" is inactive
+     - Load "Friction Force" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Force" is active
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      3 s Processing Event "Load step transition 2"
+    Current Time:      3 s Current time step 0.05 s
+
+    Time:      3 s Solving Shock 644
+
+    Time:      3 s Processing Event "SlipToStickEvent"
+    Time:      3 s Processing Event "SlipToStickEvent"
+    Time:      3 s Processing Event "SlipToStickEvent"
+
+    Time:  3.028 s Solving Shock 645
+
+    Time:  3.028 s Processing Event "SlipToStickEvent"
+
+    Time:  3.028 s Solving Shock 646
+
+    Time:  3.028 s Processing Event "SlipToStickEvent"
+    Time:  3.028 s Processing Event "SlipToStickEvent"
+
+    Time:  3.028 s Solving Shock 647
+
+    Time:  3.028 s Processing Event "SlipToStickEvent"
+    Time:  3.028 s Processing Event "SlipToStickEvent"
+
+    Time:  3.039 s Solving Shock 648
+
+    Time:  3.039 s Processing Event "SlipToStickEvent"
+
+    Time:  3.039 s Solving Shock 649
+
+    Time:  3.039 s Processing Event "SlipToStickEvent"
+
+    Time:  3.039 s Solving Shock 650
+
+    Time:  3.039 s Processing Event "SlipToStickEvent"
+    Time:  3.039 s Processing Event "SlipToStickEvent"
+
+    Time:  3.065 s Solving Shock 651
+
+    Time:  3.065 s Processing Event "SlipToStickEvent"
+
+    Time:  3.065 s Solving Shock 652
+
+    Time:  3.065 s Processing Event "SlipToStickEvent"
+    Time:  3.065 s Processing Event "SlipToStickEvent"
+
+    Time:  3.099 s Solving Shock 653
+
+    Time:  3.099 s Processing Event "SlipToStickEvent"
+    Current Time:  3.099 s Current time step 0.05 s
+
+    Time:  3.099 s Solving Shock 654
+
+    Time:  3.099 s Processing Event "SlipToStickEvent"
+    Time:  3.099 s Processing Event "SlipToStickEvent"
+    Time:  3.099 s Processing Event "SlipToStickEvent"
+
+    Time:  3.106 s Solving Shock 655
+
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+
+    Time:  3.106 s Solving Shock 656
+
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+
+    Time:  3.106 s Solving Shock 657
+
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+    Time:  3.106 s Processing Event "SlipToStickEvent"
+
+    Time:  3.142 s Solving Shock 658
+
+    Time:  3.142 s Processing Event "SlipToStickEvent"
+
+    Time:  3.142 s Solving Shock 659
+
+    Time:  3.142 s Processing Event "SlipToStickEvent"
+    Time:  3.142 s Processing Event "SlipToStickEvent"
+    Time:  3.142 s Processing Event "SlipToStickEvent"
+
+    Time:  3.142 s Solving Shock 660
+
+    Time:  3.142 s Processing Event "SlipToStickEvent"
+
+    Time:  3.151 s Solving Shock 661
+
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+
+    Time:  3.151 s Solving Shock 662
+
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+
+    Time:  3.151 s Solving Shock 663
+
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+    Time:  3.151 s Processing Event "SlipToStickEvent"
+    Current Time:  3.151 s Current time step 0.05 s
+
+    Time:  3.164 s Solving Shock 664
+
+    Time:  3.164 s Processing Event "SlipToStickEvent"
+
+    Time:  3.164 s Solving Shock 665
+
+    Time:  3.164 s Processing Event "SlipToStickEvent"
+
+    Time:  3.164 s Solving Shock 666
+
+    Time:  3.164 s Processing Event "SlipToStickEvent"
+    Time:  3.164 s Processing Event "SlipToStickEvent"
+
+    Time:  3.164 s Solving Shock 667
+
+    Time:  3.164 s Processing Event "SlipToStickEvent"
+
+    Time:   3.19 s Solving Shock 668
+
+    Time:   3.19 s Processing Event "SlipToStickEvent"
+
+    Time:   3.19 s Solving Shock 669
+
+    Time:   3.19 s Processing Event "SlipToStickEvent"
+    Time:   3.19 s Processing Event "SlipToStickEvent"
+
+    Time:   3.19 s Solving Shock 670
+
+    Time:   3.19 s Processing Event "SlipToStickEvent"
+    Time:   3.19 s Processing Event "SlipToStickEvent"
+
+    Time:  3.224 s Solving Shock 671
+
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+
+    Time:  3.224 s Solving Shock 672
+
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+
+    Time:  3.224 s Solving Shock 673
+
+    Time:  3.224 s Processing Event "SlipToStickEvent"
+    Current Time:  3.224 s Current time step 0.05 s
+
+    Time:  3.266 s Solving Shock 674
+
+    Time:  3.266 s Processing Event "SlipToStickEvent"
+
+    Time:  3.266 s Solving Shock 675
+
+    Time:  3.266 s Processing Event "SlipToStickEvent"
+    Time:  3.266 s Processing Event "SlipToStickEvent"
+
+    Time:  3.266 s Solving Shock 676
+
+    Time:  3.266 s Processing Event "SlipToStickEvent"
+
+    Time:   3.29 s Solving Shock 677
+
+    Time:   3.29 s Processing Event "SlipToStickEvent"
+
+    Time:  3.308 s Solving Shock 678
+
+    Time:  3.308 s Processing Event "SlipToStickEvent"
+
+    Time:  3.308 s Solving Shock 679
+
+    Time:  3.308 s Processing Event "SlipToStickEvent"
+    Time:  3.308 s Processing Event "SlipToStickEvent"
+
+    Time:  3.308 s Solving Shock 680
+
+    Time:  3.308 s Processing Event "SlipToStickEvent"
+
+    Time:  3.337 s Solving Shock 681
+
+    Time:  3.337 s Processing Event "SlipToStickEvent"
+
+    Time:  3.337 s Solving Shock 682
+
+    Time:  3.337 s Processing Event "SlipToStickEvent"
+
+    Time:  3.352 s Solving Shock 683
+
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+    Current Time:  3.352 s Current time step 0.05 s
+
+    Time:  3.352 s Solving Shock 684
+
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+
+    Time:  3.352 s Solving Shock 685
+
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+    Time:  3.352 s Processing Event "SlipToStickEvent"
+
+    Time:  3.361 s Solving Shock 686
+
+    Time:  3.361 s Processing Event "SlipToStickEvent"
+
+    Time:  3.361 s Solving Shock 687
+
+    Time:  3.361 s Processing Event "SlipToStickEvent"
+    Time:  3.361 s Processing Event "SlipToStickEvent"
+    Time:  3.361 s Processing Event "SlipToStickEvent"
+
+    Time:  3.361 s Solving Shock 688
+
+    Time:  3.361 s Processing Event "SlipToStickEvent"
+
+    Time:  3.394 s Solving Shock 689
+
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+
+    Time:  3.394 s Solving Shock 690
+
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+
+    Time:  3.394 s Solving Shock 691
+
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+
+    Time:  3.394 s Solving Shock 692
+
+    Time:  3.394 s Processing Event "SlipToStickEvent"
+
+    Time:  3.423 s Solving Shock 693
+
+    Time:  3.423 s Processing Event "SlipToStickEvent"
+    Current Time:  3.423 s Current time step 0.05 s
+
+    Time:  3.423 s Solving Shock 694
+
+    Time:  3.423 s Processing Event "SlipToStickEvent"
+    Time:  3.423 s Processing Event "SlipToStickEvent"
+    Time:  3.423 s Processing Event "SlipToStickEvent"
+
+    Time:  3.447 s Solving Shock 695
+
+    Time:  3.447 s Processing Event "SlipToStickEvent"
+
+    Time:  3.447 s Solving Shock 696
+
+    Time:  3.447 s Processing Event "SlipToStickEvent"
+    Time:  3.447 s Processing Event "SlipToStickEvent"
+
+    Time:  3.447 s Solving Shock 697
+
+    Time:  3.447 s Processing Event "SlipToStickEvent"
+
+    Time:  3.447 s Solving Shock 698
+
+    Time:  3.447 s Processing Event "SlipToStickEvent"
+
+    Time:  3.448 s Solving Shock 699
+
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+
+    Time:  3.448 s Solving Shock 700
+
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+
+    Time:  3.448 s Solving Shock 701
+
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+    Time:  3.448 s Processing Event "SlipToStickEvent"
+
+    Time:   3.45 s Solving Shock 702
+
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+
+    Time:   3.45 s Solving Shock 703
+
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+    Current Time:   3.45 s Current time step 0.05 s
+
+    Time:   3.45 s Solving Shock 704
+
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+    Time:   3.45 s Processing Event "SlipToStickEvent"
+
+    Time:  3.466 s Solving Shock 705
+
+    Time:  3.466 s Processing Event "SlipToStickEvent"
+
+    Time:  3.466 s Solving Shock 706
+
+    Time:  3.466 s Processing Event "SlipToStickEvent"
+    Time:  3.466 s Processing Event "SlipToStickEvent"
+
+    Time:  3.466 s Solving Shock 707
+
+    Time:  3.466 s Processing Event "SlipToStickEvent"
+
+    Time:  3.466 s Solving Shock 708
+
+    Time:  3.466 s Processing Event "SlipToStickEvent"
+
+    Time:  3.511 s Solving Shock 709
+
+    Time:  3.511 s Processing Event "SlipToStickEvent"
+
+    Time:  3.511 s Solving Shock 710
+
+    Time:  3.511 s Processing Event "SlipToStickEvent"
+    Time:  3.511 s Processing Event "SlipToStickEvent"
+
+    Time:  3.511 s Solving Shock 711
+
+    Time:  3.511 s Processing Event "SlipToStickEvent"
+
+    Time:  3.511 s Solving Shock 712
+
+    Time:  3.511 s Processing Event "SlipToStickEvent"
+
+    Time:  3.544 s Solving Shock 713
+
+    Time:  3.544 s Processing Event "SlipToStickEvent"
+    Current Time:  3.544 s Current time step 0.05 s
+
+    Time:  3.544 s Solving Shock 714
+
+    Time:  3.544 s Processing Event "SlipToStickEvent"
+    Time:  3.544 s Processing Event "SlipToStickEvent"
+    Time:  3.544 s Processing Event "SlipToStickEvent"
+
+    Time:  3.544 s Solving Shock 715
+
+    Time:  3.544 s Processing Event "SlipToStickEvent"
+
+    Time:  3.555 s Solving Shock 716
+
+    Time:  3.555 s Processing Event "SlipToStickEvent"
+
+    Time:  3.555 s Solving Shock 717
+
+    Time:  3.555 s Processing Event "SlipToStickEvent"
+
+    Time:  3.555 s Solving Shock 718
+
+    Time:  3.555 s Processing Event "SlipToStickEvent"
+
+    Time:  3.555 s Solving Shock 719
+
+    Time:  3.555 s Processing Event "SlipToStickEvent"
+
+    Time:  3.568 s Solving Shock 720
+
+    Time:  3.568 s Processing Event "SlipToStickEvent"
+
+    Time:  3.568 s Solving Shock 721
+
+    Time:  3.568 s Processing Event "SlipToStickEvent"
+
+    Time:  3.568 s Solving Shock 722
+
+    Time:  3.568 s Processing Event "SlipToStickEvent"
+    Time:  3.568 s Processing Event "SlipToStickEvent"
+
+    Time:  3.576 s Solving Shock 723
+
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+    Current Time:  3.576 s Current time step 0.05 s
+
+    Time:  3.576 s Solving Shock 724
+
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+
+    Time:  3.576 s Solving Shock 725
+
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+
+    Time:  3.576 s Solving Shock 726
+
+    Time:  3.576 s Processing Event "SlipToStickEvent"
+
+    Time:  3.608 s Solving Shock 727
+
+    Time:  3.608 s Processing Event "SlipToStickEvent"
+
+    Time:  3.608 s Solving Shock 728
+
+    Time:  3.608 s Processing Event "SlipToStickEvent"
+    Time:  3.608 s Processing Event "SlipToStickEvent"
+    Time:  3.608 s Processing Event "SlipToStickEvent"
+
+    Time:  3.624 s Solving Shock 729
+
+    Time:  3.624 s Processing Event "SlipToStickEvent"
+
+    Time:  3.624 s Solving Shock 730
+
+    Time:  3.624 s Processing Event "SlipToStickEvent"
+    Time:  3.624 s Processing Event "SlipToStickEvent"
+
+    Time:  3.631 s Solving Shock 731
+
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+
+    Time:  3.631 s Solving Shock 732
+
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+
+    Time:  3.631 s Solving Shock 733
+
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+    Time:  3.631 s Processing Event "SlipToStickEvent"
+    Current Time:  3.631 s Current time step 0.05 s
+
+    Time:  3.648 s Solving Shock 734
+
+    Time:  3.648 s Processing Event "SlipToStickEvent"
+
+    Time:  3.648 s Solving Shock 735
+
+    Time:  3.648 s Processing Event "SlipToStickEvent"
+    Time:  3.648 s Processing Event "SlipToStickEvent"
+    Time:  3.648 s Processing Event "SlipToStickEvent"
+
+    Time:   3.66 s Solving Shock 736
+
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+
+    Time:   3.66 s Solving Shock 737
+
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+
+    Time:   3.66 s Solving Shock 738
+
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+    Time:   3.66 s Processing Event "SlipToStickEvent"
+
+    Time:  3.671 s Solving Shock 739
+
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+
+    Time:  3.671 s Solving Shock 740
+
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+
+    Time:  3.671 s Solving Shock 741
+
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+
+    Time:  3.671 s Solving Shock 742
+
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+    Time:  3.671 s Processing Event "SlipToStickEvent"
+
+    Time:  3.694 s Solving Shock 743
+
+    Time:  3.694 s Processing Event "SlipToStickEvent"
+    Current Time:  3.694 s Current time step 0.05 s
+
+    Time:  3.694 s Solving Shock 744
+
+    Time:  3.694 s Processing Event "SlipToStickEvent"
+
+    Time:  3.694 s Solving Shock 745
+
+    Time:  3.694 s Processing Event "SlipToStickEvent"
+    Time:  3.694 s Processing Event "SlipToStickEvent"
+
+    Time:  3.724 s Solving Shock 746
+
+    Time:  3.724 s Processing Event "SlipToStickEvent"
+
+    Time:  3.724 s Solving Shock 747
+
+    Time:  3.724 s Processing Event "SlipToStickEvent"
+
+    Time:  3.724 s Solving Shock 748
+
+    Time:  3.724 s Processing Event "SlipToStickEvent"
+    Time:  3.724 s Processing Event "SlipToStickEvent"
+
+    Time:  3.755 s Solving Shock 749
+
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+
+    Time:  3.755 s Solving Shock 750
+
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+
+    Time:  3.755 s Solving Shock 751
+
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+
+    Time:  3.755 s Solving Shock 752
+
+    Time:  3.755 s Processing Event "SlipToStickEvent"
+
+    Time:  3.781 s Solving Shock 753
+
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+    Current Time:  3.781 s Current time step 0.05 s
+
+    Time:  3.781 s Solving Shock 754
+
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+
+    Time:  3.781 s Solving Shock 755
+
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+
+    Time:  3.781 s Solving Shock 756
+
+    Time:  3.781 s Processing Event "SlipToStickEvent"
+
+    Time:  3.803 s Solving Shock 757
+
+    Time:  3.803 s Processing Event "SlipToStickEvent"
+
+    Time:  3.803 s Solving Shock 758
+
+    Time:  3.803 s Processing Event "SlipToStickEvent"
+
+    Time:  3.803 s Solving Shock 759
+
+    Time:  3.803 s Processing Event "SlipToStickEvent"
+
+    Time:  3.803 s Solving Shock 760
+
+    Time:  3.803 s Processing Event "SlipToStickEvent"
+    Time:  3.803 s Processing Event "SlipToStickEvent"
+
+    Time:  3.832 s Solving Shock 761
+
+    Time:  3.832 s Processing Event "SlipToStickEvent"
+
+    Time:  3.832 s Solving Shock 762
+
+    Time:  3.832 s Processing Event "SlipToStickEvent"
+    Time:  3.832 s Processing Event "SlipToStickEvent"
+    Time:  3.832 s Processing Event "SlipToStickEvent"
+
+    Time:  3.832 s Solving Shock 763
+
+    Time:  3.832 s Processing Event "SlipToStickEvent"
+    Current Time:  3.832 s Current time step 0.05 s
+
+    Time:  3.853 s Solving Shock 764
+
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+
+    Time:  3.853 s Solving Shock 765
+
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+
+    Time:  3.853 s Solving Shock 766
+
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+    Time:  3.853 s Processing Event "SlipToStickEvent"
+
+    Time:  3.868 s Solving Shock 767
+
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+
+    Time:  3.868 s Solving Shock 768
+
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+
+    Time:  3.868 s Solving Shock 769
+
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+
+    Time:  3.868 s Solving Shock 770
+
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+    Time:  3.868 s Processing Event "SlipToStickEvent"
+
+    Time:  3.903 s Solving Shock 771
+
+    Time:  3.903 s Processing Event "SlipToStickEvent"
+
+    Time:  3.903 s Solving Shock 772
+
+    Time:  3.903 s Processing Event "SlipToStickEvent"
+    Time:  3.903 s Processing Event "SlipToStickEvent"
+
+    Time:  3.903 s Solving Shock 773
+
+    Time:  3.903 s Processing Event "SlipToStickEvent"
+    Current Time:  3.903 s Current time step 0.05 s
+
+    Time:  3.903 s Solving Shock 774
+
+    Time:  3.903 s Processing Event "SlipToStickEvent"
+
+    Time:  3.925 s Solving Shock 775
+
+    Time:  3.925 s Processing Event "SlipToStickEvent"
+
+    Time:  3.925 s Solving Shock 776
+
+    Time:  3.925 s Processing Event "SlipToStickEvent"
+    Time:  3.925 s Processing Event "SlipToStickEvent"
+    Time:  3.925 s Processing Event "SlipToStickEvent"
+
+    Time:  3.939 s Solving Shock 777
+
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+
+    Time:  3.939 s Solving Shock 778
+
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+
+    Time:  3.939 s Solving Shock 779
+
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+
+    Time:  3.939 s Solving Shock 780
+
+    Time:  3.939 s Processing Event "SlipToStickEvent"
+
+    Time:  3.949 s Solving Shock 781
+
+    Time:  3.949 s Processing Event "SlipToStickEvent"
+
+    Time:  3.949 s Solving Shock 782
+
+    Time:  3.949 s Processing Event "SlipToStickEvent"
+    Time:  3.949 s Processing Event "SlipToStickEvent"
+    Time:  3.949 s Processing Event "SlipToStickEvent"
+
+    Time:  3.949 s Solving Shock 783
+
+    Time:  3.949 s Processing Event "SlipToStickEvent"
+    Current Time:  3.949 s Current time step 0.05 s
+
+    Time:  3.986 s Solving Shock 784
+
+    Time:  3.986 s Processing Event "SlipToStickEvent"
+
+    Time:  3.986 s Solving Shock 785
+
+    Time:  3.986 s Processing Event "SlipToStickEvent"
+
+    Time:  3.992 s Solving Shock 786
+
+    Time:  3.992 s Processing Event "SlipToStickEvent"
+
+    Time:  3.994 s Solving Shock 787
+
+    Time:  3.994 s Processing Event "SlipToStickEvent"
+    Time:  3.994 s Processing Event "SlipToStickEvent"
+    Time:  3.994 s Processing Event "SlipToStickEvent"
+
+    Time:  3.994 s Solving Shock 788
+
+    Time:  3.994 s Processing Event "SlipToStickEvent"
+
+    Time:  3.994 s Solving Shock 789
+
+    Time:  3.994 s Processing Event "SlipToStickEvent"
+
+    Time:      4 s - Status of loads and joint conditions
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 0 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 1 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 2 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 3 )" is inactive
+     - Load "10N ( Load Step 4 )" is active
+     - Load "10N ( Load Step 4 )" is active
+     - Load "10N ( Load Step 4 )" is active
+     - Load "Friction Force" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Torque" is active
+     - Load "Friction Force" is active
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      4 s Processing Event "Load step transition 3"
+
+    Time:      4 s Solving Shock 790
+
+    Time:      4 s Processing Event "SlipToStickEvent"
+    Time:      4 s Processing Event "SlipToStickEvent"
+
+    Time:  4.024 s Solving Shock 791
+
+    Time:  4.024 s Processing Event "SlipToStickEvent"
+    Current Time:  4.024 s Current time step 0.05 s
+
+    Time:  4.024 s Solving Shock 792
+
+    Time:  4.024 s Processing Event "SlipToStickEvent"
+
+    Time:  4.024 s Solving Shock 793
+
+    Time:  4.024 s Processing Event "SlipToStickEvent"
+    Time:  4.024 s Processing Event "SlipToStickEvent"
+
+    Time:  4.052 s Solving Shock 794
+
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+
+    Time:  4.052 s Solving Shock 795
+
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+
+    Time:  4.052 s Solving Shock 796
+
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+
+    Time:  4.052 s Solving Shock 797
+
+    Time:  4.052 s Processing Event "SlipToStickEvent"
+
+    Time:  4.074 s Solving Shock 798
+
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+
+    Time:  4.074 s Solving Shock 799
+
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+
+    Time:  4.074 s Solving Shock 800
+
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+
+    Time:  4.074 s Solving Shock 801
+
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+    Time:  4.074 s Processing Event "SlipToStickEvent"
+    Current Time:  4.074 s Current time step 0.05 s
+
+    Time:   4.11 s Solving Shock 802
+
+    Time:   4.11 s Processing Event "SlipToStickEvent"
+
+    Time:   4.11 s Solving Shock 803
+
+    Time:   4.11 s Processing Event "SlipToStickEvent"
+    Time:   4.11 s Processing Event "SlipToStickEvent"
+
+    Time:  4.111 s Solving Shock 804
+
+    Time:  4.111 s Processing Event "SlipToStickEvent"
+
+    Time:  4.111 s Solving Shock 805
+
+    Time:  4.111 s Processing Event "SlipToStickEvent"
+
+    Time:  4.111 s Solving Shock 806
+
+    Time:  4.111 s Processing Event "SlipToStickEvent"
+
+    Time:  4.148 s Solving Shock 807
+
+    Time:  4.148 s Processing Event "SlipToStickEvent"
+
+    Time:  4.148 s Solving Shock 808
+
+    Time:  4.148 s Processing Event "SlipToStickEvent"
+
+    Time:  4.148 s Solving Shock 809
+
+    Time:  4.148 s Processing Event "SlipToStickEvent"
+
+    Time:  4.148 s Solving Shock 810
+
+    Time:  4.148 s Processing Event "SlipToStickEvent"
+
+    Time:   4.19 s Solving Shock 811
+
+    Time:   4.19 s Processing Event "SlipToStickEvent"
+    Current Time:   4.19 s Current time step 0.05 s
+
+    Time:   4.19 s Solving Shock 812
+
+    Time:   4.19 s Processing Event "SlipToStickEvent"
+    Time:   4.19 s Processing Event "SlipToStickEvent"
+
+    Time:   4.19 s Solving Shock 813
+
+    Time:   4.19 s Processing Event "SlipToStickEvent"
+
+    Time:  4.213 s Solving Shock 814
+
+    Time:  4.213 s Processing Event "SlipToStickEvent"
+
+    Time:  4.213 s Solving Shock 815
+
+    Time:  4.213 s Processing Event "SlipToStickEvent"
+    Time:  4.213 s Processing Event "SlipToStickEvent"
+    Time:  4.213 s Processing Event "SlipToStickEvent"
+
+    Time:  4.213 s Solving Shock 816
+
+    Time:  4.213 s Processing Event "SlipToStickEvent"
+
+    Time:  4.232 s Solving Shock 817
+
+    Time:  4.232 s Processing Event "SlipToStickEvent"
+
+    Time:  4.232 s Solving Shock 818
+
+    Time:  4.232 s Processing Event "SlipToStickEvent"
+    Time:  4.232 s Processing Event "SlipToStickEvent"
+
+    Time:  4.232 s Solving Shock 819
+
+    Time:  4.232 s Processing Event "SlipToStickEvent"
+    Time:  4.232 s Processing Event "SlipToStickEvent"
+
+    Time:  4.255 s Solving Shock 820
+
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+
+    Time:  4.255 s Solving Shock 821
+
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+    Current Time:  4.255 s Current time step 0.05 s
+
+    Time:  4.255 s Solving Shock 822
+
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+
+    Time:  4.255 s Solving Shock 823
+
+    Time:  4.255 s Processing Event "SlipToStickEvent"
+
+    Time:  4.289 s Solving Shock 824
+
+    Time:  4.289 s Processing Event "SlipToStickEvent"
+
+    Time:  4.289 s Solving Shock 825
+
+    Time:  4.289 s Processing Event "SlipToStickEvent"
+
+    Time:  4.289 s Solving Shock 826
+
+    Time:  4.289 s Processing Event "SlipToStickEvent"
+    Time:  4.289 s Processing Event "SlipToStickEvent"
+
+    Time:  4.325 s Solving Shock 827
+
+    Time:  4.325 s Processing Event "SlipToStickEvent"
+
+    Time:  4.325 s Solving Shock 828
+
+    Time:  4.325 s Processing Event "SlipToStickEvent"
+    Time:  4.325 s Processing Event "SlipToStickEvent"
+    Time:  4.325 s Processing Event "SlipToStickEvent"
+
+    Time:  4.325 s Solving Shock 829
+
+    Time:  4.325 s Processing Event "SlipToStickEvent"
+
+    Time:  4.355 s Solving Shock 830
+
+    Time:  4.355 s Processing Event "SlipToStickEvent"
+
+    Time:  4.355 s Solving Shock 831
+
+    Time:  4.355 s Processing Event "SlipToStickEvent"
+    Time:  4.355 s Processing Event "SlipToStickEvent"
+    Time:  4.355 s Processing Event "SlipToStickEvent"
+    Current Time:  4.355 s Current time step 0.05 s
+
+    Time:  4.359 s Solving Shock 832
+
+    Time:  4.359 s Processing Event "SlipToStickEvent"
+
+    Time:  4.359 s Solving Shock 833
+
+    Time:  4.359 s Processing Event "SlipToStickEvent"
+    Time:  4.359 s Processing Event "SlipToStickEvent"
+
+    Time:  4.359 s Solving Shock 834
+
+    Time:  4.359 s Processing Event "SlipToStickEvent"
+
+    Time:  4.359 s Solving Shock 835
+
+    Time:  4.359 s Processing Event "SlipToStickEvent"
+
+    Time:  4.379 s Solving Shock 836
+
+    Time:  4.379 s Processing Event "SlipToStickEvent"
+
+    Time:  4.379 s Solving Shock 837
+
+    Time:  4.379 s Processing Event "SlipToStickEvent"
+    Time:  4.379 s Processing Event "SlipToStickEvent"
+    Time:  4.379 s Processing Event "SlipToStickEvent"
+
+    Time:  4.379 s Solving Shock 838
+
+    Time:  4.379 s Processing Event "SlipToStickEvent"
+
+    Time:  4.399 s Solving Shock 839
+
+    Time:  4.399 s Processing Event "SlipToStickEvent"
+
+    Time:  4.399 s Solving Shock 840
+
+    Time:  4.399 s Processing Event "SlipToStickEvent"
+    Time:  4.399 s Processing Event "SlipToStickEvent"
+
+    Time:  4.399 s Solving Shock 841
+
+    Time:  4.399 s Processing Event "SlipToStickEvent"
+    Current Time:  4.399 s Current time step 0.05 s
+
+    Time:  4.399 s Solving Shock 842
+
+    Time:  4.399 s Processing Event "SlipToStickEvent"
+
+    Time:  4.407 s Solving Shock 843
+
+    Time:  4.407 s Processing Event "SlipToStickEvent"
+
+    Time:  4.407 s Solving Shock 844
+
+    Time:  4.407 s Processing Event "SlipToStickEvent"
+    Time:  4.407 s Processing Event "SlipToStickEvent"
+
+    Time:  4.425 s Solving Shock 845
+
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+
+    Time:  4.425 s Solving Shock 846
+
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+
+    Time:  4.425 s Solving Shock 847
+
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+
+    Time:  4.425 s Solving Shock 848
+
+    Time:  4.425 s Processing Event "SlipToStickEvent"
+
+    Time:  4.448 s Solving Shock 849
+
+    Time:  4.448 s Processing Event "SlipToStickEvent"
+
+    Time:  4.448 s Solving Shock 850
+
+    Time:  4.448 s Processing Event "SlipToStickEvent"
+    Time:  4.448 s Processing Event "SlipToStickEvent"
+
+    Time:  4.448 s Solving Shock 851
+
+    Time:  4.448 s Processing Event "SlipToStickEvent"
+    Current Time:  4.448 s Current time step 0.05 s
+
+    Time:  4.448 s Solving Shock 852
+
+    Time:  4.448 s Processing Event "SlipToStickEvent"
+
+    Time:  4.453 s Solving Shock 853
+
+    Time:  4.453 s Processing Event "SlipToStickEvent"
+
+    Time:  4.453 s Solving Shock 854
+
+    Time:  4.453 s Processing Event "SlipToStickEvent"
+    Time:  4.453 s Processing Event "SlipToStickEvent"
+    Time:  4.453 s Processing Event "SlipToStickEvent"
+
+    Time:  4.453 s Solving Shock 855
+
+    Time:  4.453 s Processing Event "SlipToStickEvent"
+
+    Time:  4.475 s Solving Shock 856
+
+    Time:  4.475 s Processing Event "SlipToStickEvent"
+
+    Time:  4.501 s Solving Shock 857
+
+    Time:  4.501 s Processing Event "SlipToStickEvent"
+
+    Time:  4.501 s Solving Shock 858
+
+    Time:  4.501 s Processing Event "SlipToStickEvent"
+    Time:  4.501 s Processing Event "SlipToStickEvent"
+    Time:  4.501 s Processing Event "SlipToStickEvent"
+
+    Time:  4.531 s Solving Shock 859
+
+    Time:  4.531 s Processing Event "SlipToStickEvent"
+
+    Time:  4.531 s Solving Shock 860
+
+    Time:  4.531 s Processing Event "SlipToStickEvent"
+
+    Time:  4.531 s Solving Shock 861
+
+    Time:  4.531 s Processing Event "SlipToStickEvent"
+    Current Time:  4.531 s Current time step 0.05 s
+
+    Time:  4.546 s Solving Shock 862
+
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+
+    Time:  4.546 s Solving Shock 863
+
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+
+    Time:  4.546 s Solving Shock 864
+
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+    Time:  4.546 s Processing Event "SlipToStickEvent"
+
+    Time:  4.596 s Solving Shock 865
+
+    Time:  4.596 s Processing Event "SlipToStickEvent"
+    Time:  4.596 s Processing Event "SlipToStickEvent"
+    Time:  4.596 s Processing Event "SlipToStickEvent"
+    Time:  4.596 s Processing Event "SlipToStickEvent"
+
+    Time:  4.642 s Solving Shock 866
+
+    Time:  4.642 s Processing Event "SlipToStickEvent"
+
+    Time:  4.642 s Solving Shock 867
+
+    Time:  4.642 s Processing Event "SlipToStickEvent"
+
+    Time:  4.642 s Solving Shock 868
+
+    Time:  4.642 s Processing Event "SlipToStickEvent"
+    Time:  4.642 s Processing Event "SlipToStickEvent"
+
+    Time:  4.682 s Solving Shock 869
+
+    Time:  4.682 s Processing Event "SlipToStickEvent"
+
+    Time:  4.682 s Solving Shock 870
+
+    Time:  4.682 s Processing Event "SlipToStickEvent"
+    Time:  4.682 s Processing Event "SlipToStickEvent"
+    Time:  4.682 s Processing Event "SlipToStickEvent"
+    Current Time:  4.682 s Current time step 0.05 s
+
+    Time:  4.714 s Solving Shock 871
+
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+
+    Time:  4.714 s Solving Shock 872
+
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+
+    Time:  4.714 s Solving Shock 873
+
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+
+    Time:  4.714 s Solving Shock 874
+
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+    Time:  4.714 s Processing Event "SlipToStickEvent"
+
+    Time:  4.744 s Solving Shock 875
+
+    Time:  4.744 s Processing Event "SlipToStickEvent"
+
+    Time:  4.744 s Solving Shock 876
+
+    Time:  4.744 s Processing Event "SlipToStickEvent"
+    Time:  4.744 s Processing Event "SlipToStickEvent"
+
+    Time:   4.78 s Solving Shock 877
+
+    Time:   4.78 s Processing Event "SlipToStickEvent"
+
+    Time:   4.78 s Solving Shock 878
+
+    Time:   4.78 s Processing Event "SlipToStickEvent"
+
+    Time:   4.78 s Solving Shock 879
+
+    Time:   4.78 s Processing Event "SlipToStickEvent"
+    Time:   4.78 s Processing Event "SlipToStickEvent"
+
+    Time:   4.78 s Solving Shock 880
+
+    Time:   4.78 s Processing Event "SlipToStickEvent"
+    Current Time:   4.78 s Current time step 0.05 s
+
+    Time:  4.821 s Solving Shock 881
+
+    Time:  4.821 s Processing Event "SlipToStickEvent"
+
+    Time:  4.821 s Solving Shock 882
+
+    Time:  4.821 s Processing Event "SlipToStickEvent"
+
+    Time:  4.821 s Solving Shock 883
+
+    Time:  4.821 s Processing Event "SlipToStickEvent"
+
+    Time:  4.821 s Solving Shock 884
+
+    Time:  4.821 s Processing Event "SlipToStickEvent"
+
+    Time:  4.859 s Solving Shock 885
+
+    Time:  4.859 s Processing Event "SlipToStickEvent"
+
+    Time:  4.859 s Solving Shock 886
+
+    Time:  4.859 s Processing Event "SlipToStickEvent"
+    Time:  4.859 s Processing Event "SlipToStickEvent"
+    Time:  4.859 s Processing Event "SlipToStickEvent"
+
+    Time:  4.859 s Solving Shock 887
+
+    Time:  4.859 s Processing Event "SlipToStickEvent"
+
+    Time:  4.891 s Solving Shock 888
+
+    Time:  4.891 s Processing Event "SlipToStickEvent"
+
+    Time:  4.891 s Solving Shock 889
+
+    Time:  4.891 s Processing Event "SlipToStickEvent"
+    Time:  4.891 s Processing Event "SlipToStickEvent"
+    Time:  4.891 s Processing Event "SlipToStickEvent"
+
+    Time:  4.891 s Solving Shock 890
+
+    Time:  4.891 s Processing Event "SlipToStickEvent"
+    Current Time:  4.891 s Current time step 0.05 s
+
+    Time:  4.938 s Solving Shock 891
+
+    Time:  4.938 s Processing Event "SlipToStickEvent"
+
+    Time:  4.938 s Solving Shock 892
+
+    Time:  4.938 s Processing Event "SlipToStickEvent"
+
+    Time:  4.938 s Solving Shock 893
+
+    Time:  4.938 s Processing Event "SlipToStickEvent"
+
+    Time:  4.938 s Solving Shock 894
+
+    Time:  4.938 s Processing Event "SlipToStickEvent"
+
+    Time:  4.944 s Solving Shock 895
+
+    Time:  4.944 s Processing Event "SlipToStickEvent"
+
+    Time:  4.944 s Solving Shock 896
+
+    Time:  4.944 s Processing Event "SlipToStickEvent"
+    Time:  4.944 s Processing Event "SlipToStickEvent"
+
+    Time:  4.948 s Solving Shock 897
+
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+
+    Time:  4.948 s Solving Shock 898
+
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+
+    Time:  4.948 s Solving Shock 899
+
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+
+    Time:  4.948 s Solving Shock 900
+
+    Time:  4.948 s Processing Event "SlipToStickEvent"
+    Current Time:  4.948 s Current time step 0.00243314 s
+
+    Time:  4.949 s Solving Shock 901
+
+    Time:  4.949 s Processing Event "SlipToStickEvent"
+
+    Time:  4.949 s Solving Shock 902
+
+    Time:  4.949 s Processing Event "SlipToStickEvent"
+    Time:  4.949 s Processing Event "SlipToStickEvent"
+    Time:  4.949 s Processing Event "SlipToStickEvent"
+    Time:  4.949 s Processing Event "SlipToStickEvent"
+
+    Time:   4.95 s Solving Shock 903
+
+    Time:   4.95 s Processing Event "SlipToStickEvent"
+
+    Time:   4.95 s Solving Shock 904
+
+    Time:   4.95 s Processing Event "SlipToStickEvent"
+
+    Time:  4.951 s Solving Shock 905
+
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+
+    Time:  4.951 s Solving Shock 906
+
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+
+    Time:  4.951 s Solving Shock 907
+
+    Time:  4.951 s Processing Event "SlipToStickEvent"
+
+    Time:   4.97 s Solving Shock 908
+
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+
+    Time:   4.97 s Solving Shock 909
+
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+    Current Time:   4.97 s Current time step 0.05 s
+
+    Time:   4.97 s Solving Shock 910
+
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+    Time:   4.97 s Processing Event "SlipToStickEvent"
+
+    Time:  4.996 s Solving Shock 911
+
+    Time:  4.996 s Processing Event "SlipToStickEvent"
+
+    Time:  4.996 s Solving Shock 912
+
+    Time:  4.996 s Processing Event "SlipToStickEvent"
+    Time:  4.996 s Processing Event "SlipToStickEvent"
+
+    Time:  4.996 s Solving Shock 913
+
+    Time:  4.996 s Processing Event "SlipToStickEvent"
+
+    Time:  4.996 s Solving Shock 914
+
+    Time:  4.996 s Processing Event "SlipToStickEvent"
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 1866
+    Average time step: 0.00267953
+
+    Number of rejected time steps: 0
+    Number of discontinuities: 917
+    Number of saved transient configurations: 2784
+    Maximum relative error: 99.9803 (%)
+    Number of position correction iterations: 2786
+    Number of velocity correction steps: 1166
+
+    End of Transient Simulation. CPU Time 12.7656 Elapsed Time 11.556
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    No Redundancies detected in the model
+ 
