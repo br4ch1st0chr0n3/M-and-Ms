@@ -15,3 +15,5 @@
 * [Folders](./HW3)
 * See BOM in [BOM](./HW3/Inventor/BOM) folder or [here](https://docs.google.com/spreadsheets/d/1fU5a32PmGlRP2ZPKVouCsaNfi5b3JEX0dQUcG1EBDpM/edit?usp=sharing)
 
+## Strirus
+* [Folder](./Strirus/)
