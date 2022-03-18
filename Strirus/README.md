@@ -2,6 +2,7 @@
 
 ## 5-bar linkage
 * Open [Leg design](./Leg.iam) in Autodesk Inventor
+* Exploded view [video](./README/explode.wmv)
 
 ## C-legs
 * ![RHex legs](./README/Rhex-leg.jpg)
